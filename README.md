@@ -16,7 +16,7 @@
 
 <h4 align="center">O projeto "Unboxing" visa transformar receptores digitais em computadores educacionais.</h4>
 
-<p align="justity">
+<p align="justify">
 Esta iniciativa resignifica o uso dos receptores digitais apreendidos pela Receita Federal que, por sua vez, são aparelhos ilegais. Estes equipamentos são descaracterizados e transformandos em minicomputadores funcionais e servirão como ferramentas de ensino e inclusão digital. Estamos democratizando o acesso ao conhecimento, especialmente em regiões onde a infraestrutura tecnológica pode ser limitada.
 </p>
 
@@ -59,6 +59,7 @@ Tipo de Memória | NAND
 Armazenamento | 8GB
 Resolução | 720x1280  
 
+
 ## 💻 <a id="pre-requisito"/>Pré-requisitos
 
 Antes de começar, verifique se o seu dispositivo atende aos seguintes requisitos:
@@ -85,31 +86,15 @@ Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
 <table>
   <tr>
     <td align="center">
-      <a href="https://www.gov.br/mcom/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/computadores-para-inclusao-1">
-        <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/logo-computadores-inclusao.png?raw=true" width="125px;" alt="CRC"/><br>
-        <sub>
-          <b></b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="http://crcdourados.com.br">
-        <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/logo-crc.png?raw=true" width="125px;" alt="CRC DOURADOS"/><br>
-        <sub>
-          <b></b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
       <a href="https://www.gov.br/receitafederal/">
-        <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/logo-rf.png?raw=true" width="125px;" alt="Receita Federal"/><br>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Logo_Receita_Federal_do_Brasil.svg?raw=true" width="125px;" alt="Receita Federal"/><br>
         <sub>
           <b></b>
         </sub>
       </a>
     </td>
     <td align="center"><br>
-      <a href="https://www.ifms.edu.br/">
+      <a href="https://www.ifpb.edu.br/">
         <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/logo-ifms.png?raw=true" width="250px;" alt="IFMS"/><br>
         <sub>
         <br>
