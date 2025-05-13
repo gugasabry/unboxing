@@ -24,6 +24,8 @@ Este projeto vem sendo desenvolvido no Instituto Federal da Paraíba (Campus Sou
   <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/Wallpaper.jpg?raw=true" alt="Wallpaper" width="1280">
 </p>
 
+<br>
+
 ## 📗 Sumário
 
  1. ⚙️ [Hardware](#hardware)
@@ -33,6 +35,8 @@ Este projeto vem sendo desenvolvido no Instituto Federal da Paraíba (Campus Sou
  5. 🤝 [Parceiros](#parceiros)
  6. 👨🏽‍💻 [Equipe de Desenvolvimento](#equipe)
  7. ✉️ [Contato](#contato)
+
+<br>
 
 ## ⚙️ <a id="hardware"/>Hardware
 
@@ -53,19 +57,23 @@ Tipo de Memória | NAND
 Armazenamento | 8GB
 Resolução | 720x1280  
 
+<br>
 
 ## 💻 <a id="pre-requisito"/>Pré-requisitos
 
 Antes de começar, verifique se o seu dispositivo atende aos seguintes requisitos:
 
  1. Verifique a compatibilidade da sua TV Box com os processadores e dispositivos disponíveis em nosso repositório.
- 
+ 2. Faça um backup da sua ROM atual em caso de possíveis erros ou aparelhos brickados.
+ 3. Isto pode ser feito no próprio Multitool escolhendo a opção 1 (Backup flash) na etapa 6 do [Tutorial](#tutorial)
+    
 |Processador  | Modelo | Fabricante
 |--|:--:|--|
 | RockChip rk322x| RK3228A, RK3228B, RK3229 | [Link](https://www.rock-chips.com/)
   
- 2. Faça um backup da sua ROM atual em caso de possíveis erros ou aparelhos brickados.
- 3. Isto pode ser feito no próprio Multitool escolhendo a opção 1 (Backup flash) na etapa 6 do [Tutorial](#tutorial)
+ 
+
+<br>
 
 ## 📝 <a id="tutorial"/>Tutorial de Instalação Unboxing
 
@@ -89,13 +97,17 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
  18. Conecte o cabo de energia
  19. Bem vindo(a) ao sistema Unboxing ❤️
 
+<br>
+
 ## ⚙️ <a id="utilitario"/>Utilitários 
 
-|Utilitário | Descrição | Build | Link |
+|Utilitário | Descrição | Versão/Build | Link |
 |--|:--:|:--:|:--:|
 | Multitool | Instalação SDCard | `6501010` |[Link](https://users.armbian.com/jock/web/rk322x/multitool/multitool.img.xz)|
 | Balena Etcher | Gravação do Multitool no SDCard | `2.1.2` | [Link](https://etcher.balena.io/#download-etcher)|
 | Unboxing | Versão do Linux Armbian Unboxing | `1.9` | [Link](https://drive.google.com/file/d/1rHzowhD4LX1mO8qY-2QqmiyT5sxOENH6/view?usp=sharing)|
+
+<br>
 
 ## 🤝 <a id="parceiros"/>Parceiros
 
@@ -123,6 +135,8 @@ Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
   </tr>
 </table>
 
+<br>
+
 ### 👨🏽‍💻👩🏼‍💻 <a id="equipe"/>Equipe de Desenvolvimento
 
 <table>
@@ -138,6 +152,8 @@ Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
     </td>
   </tr>
 </table>
+
+<br>
 
 ## ✉️ <a id="contato"/>Contato
 
