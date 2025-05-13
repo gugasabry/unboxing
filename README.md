@@ -26,19 +26,13 @@ Este projeto vem sendo desenvolvido no Instituto Federal da Paraíba (Campus Sou
 
 ## 📗 Sumário
 
- 1. 📝 [Tutorial de Instalação Unboxing](#tutorial)
- 2. ⚙️ [Hardware](#hardware)
- 3. 🔍 [Pré-Requisito](#pre-requisito)
+ 1. ⚙️ [Hardware](#hardware)
+ 2. 🔍 [Pré-Requisito](#pre-requisito)
+ 3. 📝 [Tutorial de Instalação Unboxing](#tutorial)
  4. 🚀 [Utilitários](#utilitario)
  5. 🤝 [Parceiros](#parceiros)
  6. 👨🏽‍💻 [Equipe de Desenvolvimento](#equipe)
  7. ✉️ [Contato](#contato)
-
-## 📝 <a id="tutorial"/>Tutorial de Instalação Unboxing
-
-<p align="center">
-<a href="https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/botao_armbian.png?raw=true&image_size=auto"/> <a href="https://github.com/educabox/educabox/blob/main/instalacao/instalacao-android.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/botao_android.png?raw=true&image_size=auto"/>
-</p>
 
 ## ⚙️ <a id="hardware"/>Hardware
 
@@ -71,6 +65,29 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 | RockChip rk322x| RK3228A, RK3228B, RK3229 | [Link](https://www.rock-chips.com/)
   
  2. Faça um backup da sua ROM atual em caso de possíveis erros ou aparelhos brickados.
+ 3. Isto pode ser feito no próprio Multitool escolhendo a opção 1 (Backup flash) na etapa 6 do [Tutorial](#tutorial)
+
+## 📝 <a id="tutorial"/>Tutorial de Instalação Unboxing
+
+ 1. Baixe o [Multitool](#utilitario)
+ 2. Baixe e instale o [Balena Etcher](#utilitario)
+ 3. Grave a imagem do Multitool em um SDCard (de no máximo 32GB) utilizando o Balena Etcher
+ 4. Insira o SDCard no MXQ Pro 4K 5G e ligue-o
+ 5. O espaço de armazenamento do SDCard será redimensionado pelo Multitool
+ 6. Selecione a opção 9 (Shutdown)
+ 7. Retire o cabo de energia
+ 8. Retire o SDCard e insira-o no computador
+ 9. Baixe a imagem do sistema [Unboxing](#utilitario)
+ 10. Copie o arquivo baixado para a pasta /backups/ do SDCard
+ 11. Insira o SDCard no MXQ Pro 4K 5G
+ 12. Selecione a opção 3 (Erase flash)
+ 13. Selecione a opção 2 (Restore flash)
+ 14. Selecione a imagem do sistema [Unboxing](#utilitario) e confirme
+ 15. Ao finalizar o procedimento, selecione a opção 9 (Shutdown)
+ 16. Retire o cabo de energia
+ 17. Retire o SDCard
+ 18. Conecte o cabo de energia
+ 19. Bem vindo(a) ao sistema Unboxing ❤️
 
 ## ⚙️ <a id="utilitario"/>Utilitários 
 
@@ -78,7 +95,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 |--|:--:|:--:|:--:|
 | Multitool | Instalação SDCard | `6501010` |[Link](https://users.armbian.com/jock/web/rk322x/multitool/multitool.img.xz)|
 | Balena Etcher | Gravação do Multitool no SDCard | `2.1.2` | [Link](https://etcher.balena.io/#download-etcher)|
-| Unboxing | Versão do Linux Armbian personalizada pelo Unboxing | `1.9` | [Link](https://drive.google.com/file/d/1rHzowhD4LX1mO8qY-2QqmiyT5sxOENH6/view?usp=sharing)|
+| Unboxing | Versão do Linux Armbian Unboxing | `1.9` | [Link](https://drive.google.com/file/d/1rHzowhD4LX1mO8qY-2QqmiyT5sxOENH6/view?usp=sharing)|
 
 ## 🤝 <a id="parceiros"/>Parceiros
 
