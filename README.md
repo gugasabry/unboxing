@@ -128,38 +128,10 @@ Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
 <table>
   <tr>
     <td align="center">
-      <a href="http://lattes.cnpq.br/6266978921240941">
-        <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/lucas.png?raw=true" width="110px;" alt="Lucas"/><br>
-        <span>Lucas Rodrigues</span>
+      <a href="[http://lattes.cnpq.br/6266978921240941](http://lattes.cnpq.br/1391293610402784)">
+        <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/sabry-lattes.jpg?raw=true" width="110px;" alt="Lucas"/><br>
+        <span>Gustavo Sabry</span>
         <sub>
-          <b></b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="http://lattes.cnpq.br/7192649680369183">
-        <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/savio.png?raw=true" width="110px;" alt="Savio"/><br>
-        <span>Savio Cantero</span>
-        <sub>
-          <b></b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="http://lattes.cnpq.br/0808904471212303">
-        <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/evandro.png?raw=true" width="110px;" alt="Evandro"/><br>
-        <span>Evandro Falleiros</span>
-        <sub>
-          <b></b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="http://lattes.cnpq.br/3005793775761769">
-        <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/jonison.png?raw=true" width="110px;" alt="Jonison"/><br>
-        <span>Jónison Santos</span>
-        <sub>
-        <br>
           <b></b>
         </sub>
       </a>
