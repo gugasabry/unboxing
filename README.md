@@ -3,20 +3,22 @@
 <!--
 <h1 align="center">
   <br>
-  <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/Wallpaper.jpg?raw=true&image_size=auto" width="200"></a>
-  <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/Wallpaper.jpg?raw=true" width="200"></a>
+  <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/unboxing.png?raw=true&image_size=auto" width="200"></a>
+  <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/unboxing.png?raw=true" width="200"></a>
   <br>
   Unboxing
   <br>
 </h1>
  -->
 <p align="center">
-  <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/Wallpaper.jpg?raw=true" alt="Size Limit CLI" width="1280">
+  <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/unboxing.png?raw=true" alt="Size Limit CLI" width="1280">
 </p>
 
-<h4 align="center">O projeto "Unboxing" visa transformar dispositivos TV Box em computadores educacionais. <a href="#" target="_blank">Unboxing</a>.</h4>
+<h4 align="center">O projeto "Unboxing" visa transformar dispositivos TV Box em computadores educacionais.</h4>
 
-> Ao converter TVs Boxes em computadores educacionais, estamos democratizando o acesso ao conhecimento, especialmente em regiões onde a infraestrutura tecnológica pode ser limitada. Agora, estudantes, professores e técnicos têm a oportunidade de explorar recursos educacionais, acessar conteúdos interativos e participar de experiências de aprendizado envolventes, tudo a partir de TVs Boxes com baixo custo computacional.
+<p align="justity">
+Ao converter TVs Boxes em computadores educacionais, estamos democratizando o acesso ao conhecimento, especialmente em regiões onde a infraestrutura tecnológica pode ser limitada. Agora, estudantes, professores e técnicos têm a oportunidade de explorar recursos educacionais, acessar conteúdos interativos e participar de experiências de aprendizado envolventes, tudo a partir de TVs Boxes com baixo custo computacional.
+</p>
 
 <p align="center">
   <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/Wallpaper.jpg?raw=true" alt="Size Limit CLI" width="1280">
@@ -43,39 +45,23 @@
 
 >Este é o repositório com todas as TVs Boxes que já foram descaracterizadas por nossa equipe. O link de instalação descreve passo-a-passo como instalar uma imagem Armbian Oficial em cada dispositivo! Caso deseje faça a instalação customizada do nosso projeto EducaBox já com todas as ferramentas e scripts para instalação.
 
+# ⚙️ **Hardware**
 
-
-| TV BOX      | Processador     |    GPU   |  Mem    |   HD  |       Wifi       | Áudio |  Instalação                                                                     |
-|-------------|-----------------|:--------:|:-------:|:-----:|------------------|:-----:|:-------------------------------------------------------------------------------:|
-| AUDIOSAT 4K | Allwinner H3    | Mali-400 | 1GB     | 8GB   | ❌ SV6256P       |❌     | [Link](https://github.com/educabox/educabox/blob/main/boxes/audiosatpro4k.md)   |
-| BTV11       | Amlogic S905X3  | Mali-G31 | 2GB     | 16GB  | ✅ AP6212        |❌     | [Link](https://github.com/educabox/educabox/blob/main/boxes/btv11.md)           |
-| BTVBX       | Amlogic S905X   | Mali-450 | 2GB     | 16GB  | ✅ AP6212        |❌     | [Link](https://github.com/educabox/educabox/blob/main/boxes/btvbx.md)           |
-| BTVE10      | Amlogic S905X2  | Mali-G31 | 2GB     | 8GB   | ✅ RTL8189FTV    |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/btve10.md)          | 
-| DC BOX 8K   | RockChip 3229   | Mali-400 | 1GB     | 8GB   | ✅ SV6256P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/dcbox8k.md)         |
-| EXTREMO     | Amlogic S905W   | Mali-450 | 2GB     | 8GB   | ❌ SV6051P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/extremo.md)         |
-| HTV6+       | Amlogic S905W   | Mali-450 | 2GB     | 16GB  | ✅ RTL8723BS     |❌     | [Link](https://github.com/educabox/educabox/blob/main/boxes/htv6plus.md)        | 
-| HTV7        | Amlogic S905X3  | Mali-G31 | 2GB     | 16GB  | ✅ RTL8822CS     |❌     | [Link](https://github.com/educabox/educabox/blob/main/boxes/htv7.md)            |
-| I5          | RockChip 3229   | Mali-400 | 2GB     | 8GB   | ✅ RTL8723BS     |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/i5.md)              |
-| ID18        | Allwinner H3    | Mali-400 | 1GB     | 8GB   | ✅ XR819         |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/id18.md)            |
-| IMOVE       | Amlogic S905W   | Mali-450 | 1GB     | 8GB   | ❌ SV6051P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/imove.md)           |
-| IMOVE PRO   | Amlogic S905W   | Mali-450 | 1GB     | 8GB   | ❌ SV6051P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/imovepro.md)        |
-| IN X PLUS   | RockChip 3229   | Mali-400 | 1GB     | 8GB   | ✅ SV6256P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/inxplus.md)         |
-| MX9 4K 5G   | RockChip 3228A  | Mali-400 | 1GB     | 8GB   | ❌ SV6156P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/mx94k5g.md)         |
-| MXQ PRO 4K  | RockChip 3228A  | Mali-400 | 1GB     | 8GB   | ✅ SV6256P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/mxqpro4k5g-cinza.md)|
-| MXQ PRO 4K  | RockChip 3228A  | Mali-400 | 1GB     | 8GB   | ❌ ESP8089       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/mxqpro4k5g.md)      |
-| MXQ PLUS 4K | Allwinner H3    | Mali-400 | 1GB     | 8GB   | ❌ SV6256P       |❌     | [Link](https://github.com/educabox/educabox/blob/main/boxes/mxqplus4k.md)       |
-| MY BOX TV   | Amlogic S905X   | Mali-450 | 2GB     | 16GB  | ❌ AP6181        |❌     | [Link](https://github.com/educabox/educabox/blob/main/boxes/mytvbox.md)         |
-| PLAY TV     | Amlogic S905X3  | Mali-G31 | 2GB     | 16GB  | ✅ RTL8189FTV    |❌     | [Link](https://github.com/educabox/educabox/blob/main/boxes/playtv.md)          |
-| R69         | Allwinner H3    | Mali-400 | 1GB     | 8GB   | ✅ XR819         |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/r69.md)             |
-| R90 PLUS    | RockChip 3228A  | Mali-400 | 1GB     | 8GB   | ✅ SV6051P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/r90plus.md)         |
-| RPC 8K      | RockChip 3228A  | Mali-400 | 1GB     | 8GB   | ✅ SV6051P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/rpc8k.md)           |
-| RPC MINI    | RockChip 3228A  | Mali-400 | 1GB     | 8GB   | ✅ SV6051P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/rpcmini.md)         |
-| RPC PLUS    | RockChip 3228A  | Mali-400 | 1GB     | 8GB   | ✅ SV6256P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/rpcplus.md)         |
-| SEM NOME    | RockChip 3228A  | Mali-400 | 1GB     | 8GB   | ✅ SV6051P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/semnome.md)         |
-| SUNLIGHT    | RockChip 3228A  | Mali-400 | 1GB     | 8GB   | ✅ SV6256P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/sunlight.md)        |
-| SUPER TV    | RockChip 3229   | Mali-400 | 1GB     | 8GB   | ✅ RTL8189FTV    |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/supertv.md)         |
-| TIGRE 2     | Amlogic S905X   | Mali-450 | 2GB     | 16GB  | ✅ RTL8723BS     |❌     | [Link](https://github.com/educabox/educabox/blob/main/boxes/tigre2.md)          |
-| UNITV S1    | RockChip 3229   | Mali-400 | 1GB     | 8GB   | ✅ RTW8723DS     |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/unitvs1.md)         |
+|Sumário | Detalhes|
+---------|:--:
+Codename | MXQ PRO 4K 5G
+Fabricante | MXQ
+Modelo | MXQ PRO 4K 5G
+Placa Mãe | R329Q_V8.1 2020.06.15
+Placa DTB | rk30sdk
+CPU | Rockchip 3228A
+Família | Cortex-A7
+Velocidade | 408 - 1008 MHz
+GPU | Mali-400 MP
+Wifi | SV6256P
+Memória | 1GB
+Armazenamento | 8GB
+Resolução | 720x1280  
 
 ## 💻 <a id="pre-requisito"/>Pré-requisitos
 
