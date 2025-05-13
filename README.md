@@ -3,62 +3,43 @@
 <!--
 <h1 align="center">
   <br>
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png?raw=true&image_size=auto" width="200"></a>
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/logo-ifms-branco.png?raw=true" width="200"></a>
+  <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/Wallpaper.jpg?raw=true&image_size=auto" width="200"></a>
+  <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/Wallpaper.jpg?raw=true" width="200"></a>
   <br>
-  EducaBox
+  Unboxing
   <br>
 </h1>
  -->
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/background.png?raw=true" alt="Size Limit CLI" width="1280">
+  <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/Wallpaper.jpg?raw=true" alt="Size Limit CLI" width="1280">
 </p>
 
-<h4 align="center">O projeto "EducaBox" visa transformar dispositivos TV Box em computadores educacionais. <a href="#" target="_blank">EducaBox</a>.</h4>
+<h4 align="center">O projeto "Unboxing" visa transformar dispositivos TV Box em computadores educacionais. <a href="#" target="_blank">Unboxing</a>.</h4>
 
 > Ao converter TVs Boxes em computadores educacionais, estamos democratizando o acesso ao conhecimento, especialmente em regiões onde a infraestrutura tecnológica pode ser limitada. Agora, estudantes, professores e técnicos têm a oportunidade de explorar recursos educacionais, acessar conteúdos interativos e participar de experiências de aprendizado envolventes, tudo a partir de TVs Boxes com baixo custo computacional.
 
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/1.png?raw=true" alt="Size Limit CLI" width="1280">
+  <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/Wallpaper.jpg?raw=true" alt="Size Limit CLI" width="1280">
 </p>
-
-| EducaBox Armbian | EducaBox Android |
-| ----------- | ----------- |
-|<img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/5.png?raw=true&image_size=auto"/>|<img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/7.png?raw=true&image_size=auto"/>|
-
-
-### Ajustes e melhorias
-
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
-
-- [x] Customização de ROM's Android em placas RockChip (RK322X).
-- [x] Customização de S.O's Armbian em placas Amlogic e Allwinner.
-- [x] Viabilização de S.O's (LibreElec, CoreElec, Lakka, Kodi) para uso em projetos GameLab, Totens e Painéis Digitais.
-- [ ] Criação de uma ROM própria pelo projeto EducaBox
-- [ ] Desenvolvimento de processos e repositório completo para comunidade.
 
 ## 📗 Sumário
 
- 1. 📝 [Tutorial Instalação Imagem EducaBox [Armbian/Android]](#tutorial)
- 2. 🚀 [Tutorial Instalação Imagem Oficial Armbiam](#download)
+ 1. 📝 [Tutorial Instalação Imagem Unboxing [Armbian]](#tutorial)
+ 2. ⚙️ [Hardware](#hardware)
  3. 🔍 [Pré-Requisito](#pre-requisito)
- 4. ⚙️ [Utilitários](#utilitario)
+ 4. 🚀 [Utilitários](#utilitario)
  5. 🔁 [Recuperação TWRP](#recuperacao)
  6. 🤝 [Parceiros](#parceiros)
  7. 👨🏽‍💻 [Equipe de Desenvolvimento](#equipe)
  8. ✉️ [Contato](#contato)
 
-[Veja nosso FAQ de Dúvidas e Dicas?](https://github.com/educabox/educabox/blob/main/instalacao/faq.md)
-
-<a href="https://github.com/educabox/educabox/blob/main/instalacao/faq.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/faq.png?raw=true&image_size=auto"/>
-
-## 📝 <a id="tutorial"/>Tutorial Instalação Imagem EducaBox
+## 📝 <a id="tutorial"/>Tutorial Instalação Imagem Unboxing
 
 <p align="center">
 <a href="https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/botao_armbian.png?raw=true&image_size=auto"/> <a href="https://github.com/educabox/educabox/blob/main/instalacao/instalacao-android.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/botao_android.png?raw=true&image_size=auto"/>
 </p>
 
-## 🚀 <a id="download"/>Tutorial Instalação Imagem Oficial Armbiam
+## 🚀 <a id="hardware"/>Hardware
 
 >Este é o repositório com todas as TVs Boxes que já foram descaracterizadas por nossa equipe. O link de instalação descreve passo-a-passo como instalar uma imagem Armbian Oficial em cada dispositivo! Caso deseje faça a instalação customizada do nosso projeto EducaBox já com todas as ferramentas e scripts para instalação.
 
