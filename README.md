@@ -17,7 +17,7 @@
 <h4 align="center">O projeto "Unboxing" visa transformar receptores digitais em computadores educacionais.</h4>
 
 <p align="justify">
-Este projeto vem sendo desenvolvido no Instituto Federal da Paraíba (Campus Sousa) desde Fevereiro de 2025 orientado pelo professor <a href="http://lattes.cnpq.br/1391293610402784">Gustavo Sabry</a>. Esta iniciativa resignifica o uso dos receptores digitais apreendidos pela Receita Federal que, por sua vez, são aparelhos ilegais. Estes equipamentos são descaracterizados e transformandos em minicomputadores funcionais e servirão como ferramentas de ensino e inclusão digital. Estamos democratizando o acesso ao conhecimento, especialmente em regiões onde a infraestrutura tecnológica pode ser limitada.
+Este projeto vem sendo desenvolvido no Instituto Federal da Paraíba (Campus Sousa) desde Fevereiro de 2025 orientado pelo professor <a href="http://lattes.cnpq.br/1391293610402784" target="_blank">Gustavo Sabry</a>. Esta iniciativa resignifica o uso dos receptores digitais apreendidos pela Receita Federal que, por sua vez, são aparelhos ilegais. Estes equipamentos são descaracterizados e transformandos em minicomputadores funcionais e servirão como ferramentas de ensino e inclusão digital. Estamos democratizando o acesso ao conhecimento, especialmente em regiões onde a infraestrutura tecnológica pode ser limitada.
 </p>
 
 <p align="center">
