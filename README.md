@@ -26,7 +26,7 @@ Esta iniciativa resignifica o uso dos receptores digitais apreendidos pela Recei
 
 ## 📗 Sumário
 
- 1. 📝 [Tutorial Instalação Imagem Unboxing [Armbian]](#tutorial)
+ 1. 📝 [Tutorial de Instalação Unboxing](#tutorial)
  2. ⚙️ [Hardware](#hardware)
  3. 🔍 [Pré-Requisito](#pre-requisito)
  4. 🚀 [Utilitários](#utilitario)
@@ -34,7 +34,7 @@ Esta iniciativa resignifica o uso dos receptores digitais apreendidos pela Recei
  6. 👨🏽‍💻 [Equipe de Desenvolvimento](#equipe)
  7. ✉️ [Contato](#contato)
 
-## 📝 <a id="tutorial"/>Tutorial Instalação Imagem Unboxing
+## 📝 <a id="tutorial"/>Tutorial de Instalação Unboxing
 
 <p align="center">
 <a href="https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/botao_armbian.png?raw=true&image_size=auto"/> <a href="https://github.com/educabox/educabox/blob/main/instalacao/instalacao-android.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/botao_android.png?raw=true&image_size=auto"/>
@@ -44,7 +44,7 @@ Esta iniciativa resignifica o uso dos receptores digitais apreendidos pela Recei
 
 |Sumário | Detalhes|
 ---------|:--:
-Codename | MXQ PRO 4K 5G
+Codenome | MXQ PRO 4K 5G
 Fabricante | MXQ
 Modelo | MXQ PRO 4K 5G
 Placa Mãe | R329Q_V8.1 2020.06.15
@@ -74,10 +74,11 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 
 ## ⚙️ <a id="utilitario"/>Utilitários 
 
-### RockChip
-|Processador | Função | Utilitário| Build | Link
-|--|:--:|:--:|:--:|:--:|
-| RockChip rk322x| Instalação SDCard| Multitool | `6501010` |[Link](https://users.armbian.com/jock/web/rk322x/multitool/multitool.img.xz)
+|Utilitário | Descrição | Build | Link |
+|--|:--:|:--:|:--:|
+| Multitool | Instalação SDCard | `6501010` |[Link](https://users.armbian.com/jock/web/rk322x/multitool/multitool.img.xz)|
+| Balena Etcher | Gravação do Multitool no SDCard | `2.1.2` | [Link](https://etcher.balena.io/#download-etcher)|
+| Unboxing | Versão do Linux Armbian personalizada pelo Unboxing | `1.9` | [Link](https://drive.google.com/file/d/1rHzowhD4LX1mO8qY-2QqmiyT5sxOENH6/view?usp=sharing)|
 
 ## 🤝 <a id="parceiros"/>Parceiros
 
@@ -94,8 +95,8 @@ Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td align="center"><br>
-      <a href="https://www.ifpb.edu.br/">
-        <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/logo-ifms.png?raw=true" width="250px;" alt="IFMS"/><br>
+      <a href="https://www.ifpb.edu.br/sousa">
+        <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/logo-ifpb-sousa.png?raw=true" width="100px;" alt="IFPB"/><br>
         <sub>
         <br>
           <b></b>
