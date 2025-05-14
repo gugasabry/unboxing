@@ -13,12 +13,14 @@
 <p align="center">
   <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/Projeto%20Unboxing.jpg?raw=true" alt="Size Limit CLI" width="1280">
 </p>
-
+<br>
 <h4 align="center">O projeto "Unboxing" visa transformar receptores digitais em computadores educacionais.</h4>
 
 <p align="justify">
 Este projeto vem sendo desenvolvido no Instituto Federal da Paraíba (Campus Sousa) desde Fevereiro de 2025 orientado pelos docentes <a href="http://lattes.cnpq.br/1391293610402784" target="_blank">Gustavo Sabry</a> e <a href="http://lattes.cnpq.br/5582403490028754" target="_blank">Edyfran Fernandes</a>. Esta iniciativa resignifica o uso dos receptores digitais apreendidos pela Receita Federal que, por sua vez, são aparelhos ilegais. Estes equipamentos são descaracterizados e transformandos em minicomputadores funcionais e servirão como ferramentas de ensino e inclusão digital. Estamos democratizando o acesso ao conhecimento, especialmente em regiões onde a infraestrutura tecnológica pode ser limitada.
 </p>
+
+<br>
 
 <p align="center">
   <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/Wallpaper.png?raw=true" alt="Wallpaper" width="1280">
