@@ -28,6 +28,14 @@ Este projeto vem sendo desenvolvido no Instituto Federal da Paraíba (Campus Sou
 
 <br>
 
+| Screenshots | Screenshots |
+| ----------- | ----------- |
+|<img src="https://github.com/gugasabry/unboxing/blob/main/imagens/Tela_01.png?raw=true&image_size=auto"/>|<img src="https://github.com/gugasabry/unboxing/blob/main/imagens/Tela_02.png?raw=true&image_size=auto"/>|
+|<img src="https://github.com/gugasabry/unboxing/blob/main/imagens/Tela_03.png?raw=true&image_size=auto"/>|<img src="https://github.com/gugasabry/unboxing/blob/main/imagens/Tela_04.png?raw=true&image_size=auto"/>|
+|<img src="https://github.com/gugasabry/unboxing/blob/main/imagens/Tela_05.png?raw=true&image_size=auto"/>|<img src="https://github.com/gugasabry/unboxing/blob/main/imagens/Tela_06.png?raw=true&image_size=auto"/>|
+
+<br>
+
 ## 📗 Sumário
 
  1. ⚙️ [Hardware](#hardware)
