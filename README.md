@@ -17,7 +17,7 @@
 <h4 align="center">O projeto "Unboxing" visa transformar receptores digitais em computadores educacionais.</h4>
 
 <p align="justify">
-Este projeto vem sendo desenvolvido no Instituto Federal da Paraíba (Campus Sousa) desde Fevereiro de 2025 orientado pelo professor <a href="http://lattes.cnpq.br/1391293610402784" target="_blank">Gustavo Sabry</a>. Esta iniciativa resignifica o uso dos receptores digitais apreendidos pela Receita Federal que, por sua vez, são aparelhos ilegais. Estes equipamentos são descaracterizados e transformandos em minicomputadores funcionais e servirão como ferramentas de ensino e inclusão digital. Estamos democratizando o acesso ao conhecimento, especialmente em regiões onde a infraestrutura tecnológica pode ser limitada.
+Este projeto vem sendo desenvolvido no Instituto Federal da Paraíba (Campus Sousa) desde Fevereiro de 2025 orientado pelos docentes <a href="http://lattes.cnpq.br/1391293610402784" target="_blank">Gustavo Sabry</a> e <a href="http://lattes.cnpq.br/5582403490028754" target="_blank">Edyfran Fernandes</a>. Esta iniciativa resignifica o uso dos receptores digitais apreendidos pela Receita Federal que, por sua vez, são aparelhos ilegais. Estes equipamentos são descaracterizados e transformandos em minicomputadores funcionais e servirão como ferramentas de ensino e inclusão digital. Estamos democratizando o acesso ao conhecimento, especialmente em regiões onde a infraestrutura tecnológica pode ser limitada.
 </p>
 
 <p align="center">
@@ -140,11 +140,20 @@ Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
 ### 👨🏽‍💻👩🏼‍💻 <a id="equipe"/>Equipe de Desenvolvimento
 
 <table>
-  <tr>
+  <tr>    
     <td align="center">
-      <a href="[http://lattes.cnpq.br/6266978921240941](http://lattes.cnpq.br/1391293610402784)">
-        <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/sabry-lattes.jpg?raw=true" width="110px;" alt="Lucas"/><br>
+      <a href="http://lattes.cnpq.br/6266978921240941">
+        <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/sabry-lattes.jpg?raw=true" width="110px;" alt="Sabry"/><br>
         <span>Gustavo Sabry</span>
+        <sub>
+          <b></b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="http://lattes.cnpq.br/5582403490028754">
+        <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/edyfran-lattes.jpg?raw=true" width="180px;" alt="Edyfran"/><br>
+        <span>Edyfran Fernandes</span>
         <sub>
           <b></b>
         </sub>
@@ -160,6 +169,7 @@ Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
 Dúvidas? Sugestões?
 
 🖥️ www.ifpb.edu.br/sousa
+<br>
 ✉️ gustavo.sabry@ifpb.edu.br
 
 <p align="center">
