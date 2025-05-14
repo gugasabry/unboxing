@@ -142,7 +142,7 @@ Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
 <table>
   <tr>    
     <td align="center">
-      <a href="http://lattes.cnpq.br/6266978921240941">
+      <a href="http://lattes.cnpq.br/6266978921240941" target="_blank">
         <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/sabry-lattes.jpg?raw=true" width="110px;" alt="Sabry"/><br>
         <span>Gustavo Sabry</span>
         <sub>
@@ -151,7 +151,7 @@ Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td align="center">
-      <a href="http://lattes.cnpq.br/5582403490028754">
+      <a href="http://lattes.cnpq.br/5582403490028754"  target="_blank">
         <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/edyfran-lattes.jpg?raw=true" width="180px;" alt="Edyfran"/><br>
         <span>Edyfran Fernandes</span>
         <sub>
