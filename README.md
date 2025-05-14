@@ -3,15 +3,15 @@
 <!--
 <h1 align="center">
   <br>
-  <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/unboxing.png?raw=true&image_size=auto" width="200"></a>
-  <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/unboxing.png?raw=true" width="200"></a>
+  <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/Projeto%20Unboxing.jpg?raw=true&image_size=auto" width="200"></a>
+  <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/Projeto%20Unboxing.jpg?raw=true" width="200"></a>
   <br>
   Unboxing
   <br>
 </h1>
  -->
 <p align="center">
-  <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/unboxing.png?raw=true" alt="Size Limit CLI" width="1280">
+  <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/Projeto%20Unboxing.jpg?raw=true" alt="Size Limit CLI" width="1280">
 </p>
 
 <h4 align="center">O projeto "Unboxing" visa transformar receptores digitais em computadores educacionais.</h4>
@@ -21,7 +21,7 @@ Este projeto vem sendo desenvolvido no Instituto Federal da Paraíba (Campus Sou
 </p>
 
 <p align="center">
-  <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/Wallpaper.jpg?raw=true" alt="Wallpaper" width="1280">
+  <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/Wallpaper.png?raw=true" alt="Wallpaper" width="1280">
 </p>
 
 <br>
