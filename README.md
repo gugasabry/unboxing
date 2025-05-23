@@ -63,8 +63,8 @@ Velocidade | 408 - 1008 MHz
 GPU | Mali-400 MP
 Wifi | SV6256P
 Memória | 1GB
-Tipo de Memória | NAND
 Armazenamento | 8GB
+Tipo de Armazenamento | NAND
 Resolução | 720x1280  
 
 <br>
