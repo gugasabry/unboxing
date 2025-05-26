@@ -88,26 +88,27 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 
 ## 📝 <a id="tutorial"/>Tutorial de Instalação Unboxing
 
- 1. Baixe o [Multitool](#utilitario)
- 2. Baixe e instale o [Balena Etcher](#utilitario)
- 3. Abrir o aplicativo [Balena Etcher](#utilitario)
- 4. Grave a imagem do Multitool em um SDCard (de no máximo 32GB) utilizando o Balena Etcher
- 5. Insira o SDCard no MXQ Pro 4K 5G, conecte os periférios (mouse, teclado e monitor) e ligue-o
+ 1. Baixe as ferramentas: [Balena Etcher, Multitool e Unboxing](#utilitario)
+ 2. Instale e abra o software Balena Etcher
+ 3. Utilizando o Balena Etcher, grave a imagem do Multitool em um SDCard (de no máximo 32GB)
+ 4. Retire o SDCard do computador
+ 5. Insira o SDCard no MXQ Pro 4K 5G, conecte os periférios (mouse, teclado e monitor) e cabo de energia
  6. O espaço de armazenamento do SDCard será redimensionado pelo Multitool
  7. Selecione as opções Exit, OK e 9 (Shutdown)
  8. Retire o cabo de energia
  9. Retire o SDCard e insira-o no computador
- 10. Baixe a imagem do sistema [Unboxing](#utilitario)
- 11. Copie o arquivo baixado para a pasta /backups/ do SDCard na partição MULTITOOL
- 12. Insira o SDCard no MXQ Pro 4K 5G e ligue-o
- 13. Selecione a opção 3 (Erase flash)
- 14. Selecione a opção 2 (Restore flash)
- 15. Selecione a imagem do sistema [Unboxing](#utilitario) e confirme
- 16. Ao finalizar o procedimento, selecione a opção 9 (Shutdown)
- 17. Retire o cabo de energia
- 18. Retire o SDCard
- 19. Conecte o cabo de energia
- 20. Bem vindo(a) ao sistema Unboxing ❤️
+ 10. Copie a imagem do Unboxing para a pasta /backups/ do SDCard na partição MULTITOOL
+ 11. Retire o SDCard do computador
+ 12. Insira o SDCard no MXQ Pro 4K 5G e conecte o cabo de energia
+ 13. Selecione as opções Exit, OK e 3 (Erase flash) e confirme &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>#Esta etapa irá apagar o sistema Android instalado no aparelho</b>
+ 14. Selecione a opção 2 (Restore flash) e confirme 
+ 15. Selecione a imagem do sistema Unboxing e confirme &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>#Esta etapa irá instalar o nosso sistema no aparelho</b>
+ 16. Esta etapa pode durar em média aproximadamente 20 minutos
+ 17. Ao finalizar o procedimento, selecione a opção 9 (Shutdown)
+ 18. Retire o cabo de energia
+ 19. Retire o SDCard
+ 20. Conecte o cabo de energia
+ 21. Bem vindo(a) ao sistema Unboxing ❤️
 
 <br>
 
