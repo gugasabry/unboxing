@@ -76,7 +76,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 
  1. Verifique a compatibilidade da sua TV Box com os processadores e dispositivos disponíveis em nosso repositório.
  2. Faça um backup da sua ROM atual em caso de possíveis erros ou aparelhos brickados.
- 3. Isto pode ser feito no próprio Multitool escolhendo a opção 1 (Backup flash) na etapa 6 do [Tutorial](#tutorial)
+ 3. Isto pode ser feito no próprio Multitool escolhendo a opção 1 (Backup flash) na etapa 7 do [Tutorial](#tutorial)
     
 |Processador  | Modelo | Fabricante
 |--|:--:|--|
@@ -100,9 +100,9 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
  10. Copie a imagem do Unboxing para a pasta /backups/ do SDCard na partição MULTITOOL
  11. Retire o SDCard do computador
  12. Insira o SDCard no MXQ Pro 4K 5G e conecte o cabo de energia
- 13. Selecione as opções Exit, OK e 3 (Erase flash) e confirme &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>#Esta etapa irá apagar o sistema Android instalado no aparelho</b>
+ 13. Selecione as opções Exit, OK e 3 (Erase flash) e confirme &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>#Esta etapa apaga o sistema Android instalado</b>
  14. Selecione a opção 2 (Restore flash) e confirme 
- 15. Selecione a imagem do sistema Unboxing e confirme &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>#Esta etapa irá instalar o nosso sistema no aparelho</b>
+ 15. Selecione a imagem do sistema Unboxing e confirme &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>#Esta etapa irá instalar o nosso sistema</b>
  16. Esta etapa pode durar em média aproximadamente 20 minutos
  17. Ao finalizar o procedimento, selecione a opção 9 (Shutdown)
  18. Retire o cabo de energia
