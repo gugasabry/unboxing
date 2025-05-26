@@ -90,23 +90,24 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 
  1. Baixe o [Multitool](#utilitario)
  2. Baixe e instale o [Balena Etcher](#utilitario)
- 3. Grave a imagem do Multitool em um SDCard (de no máximo 32GB) utilizando o Balena Etcher
- 4. Insira o SDCard no MXQ Pro 4K 5G e ligue-o
- 5. O espaço de armazenamento do SDCard será redimensionado pelo Multitool
- 6. Selecione a opção 9 (Shutdown)
- 7. Retire o cabo de energia
- 8. Retire o SDCard e insira-o no computador
- 9. Baixe a imagem do sistema [Unboxing](#utilitario)
- 10. Copie o arquivo baixado para a pasta /backups/ do SDCard
- 11. Insira o SDCard no MXQ Pro 4K 5G
- 12. Selecione a opção 3 (Erase flash)
- 13. Selecione a opção 2 (Restore flash)
- 14. Selecione a imagem do sistema [Unboxing](#utilitario) e confirme
- 15. Ao finalizar o procedimento, selecione a opção 9 (Shutdown)
- 16. Retire o cabo de energia
- 17. Retire o SDCard
- 18. Conecte o cabo de energia
- 19. Bem vindo(a) ao sistema Unboxing ❤️
+ 3. Abrir o aplicativo [Balena Etcher](#utilitario)
+ 4. Grave a imagem do Multitool em um SDCard (de no máximo 32GB) utilizando o Balena Etcher
+ 5. Insira o SDCard no MXQ Pro 4K 5G, conecte os periférios (mouse, teclado e monitor) e ligue-o
+ 6. O espaço de armazenamento do SDCard será redimensionado pelo Multitool
+ 7. Selecione as opções Exit, OK e 9 (Shutdown)
+ 8. Retire o cabo de energia
+ 9. Retire o SDCard e insira-o no computador
+ 10. Baixe a imagem do sistema [Unboxing](#utilitario)
+ 11. Copie o arquivo baixado para a pasta /backups/ do SDCard na partição MULTITOOL
+ 12. Insira o SDCard no MXQ Pro 4K 5G e ligue-o
+ 13. Selecione a opção 3 (Erase flash)
+ 14. Selecione a opção 2 (Restore flash)
+ 15. Selecione a imagem do sistema [Unboxing](#utilitario) e confirme
+ 16. Ao finalizar o procedimento, selecione a opção 9 (Shutdown)
+ 17. Retire o cabo de energia
+ 18. Retire o SDCard
+ 19. Conecte o cabo de energia
+ 20. Bem vindo(a) ao sistema Unboxing ❤️
 
 <br>
 
