@@ -116,9 +116,9 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 
 |Utilitário | Descrição | Versão/Build | Link |
 |--|:--:|:--:|:--:|
-| Multitool | Instalação SDCard | `6501010` |[Link](https://users.armbian.com/jock/web/rk322x/multitool/multitool.img.xz)|
+| Multitool | Instalação SDCard | `6501010` |[Link](https://drive.google.com/file/d/1GbdqMsbGrMdMOGOlMOeEjhCtfHhhzZsd/view?usp=sharing)|
 | Balena Etcher | Gravação do Multitool no SDCard | `2.1.2` | [Link](https://etcher.balena.io/#download-etcher)|
-| Unboxing | Versão do Linux Armbian Unboxing | `1.9` | [Link](https://drive.google.com/file/d/1rHzowhD4LX1mO8qY-2QqmiyT5sxOENH6/view?usp=sharing)|
+| Unboxing | Versão do Linux Armbian Unboxing | `2.1` | [Link](https://drive.google.com/file/d/121jrgXQ_GrR6Rlet9P2W4qO9k5xYcml5/view?usp=sharing)|
 
 <br>
 
