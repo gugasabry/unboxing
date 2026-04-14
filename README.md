@@ -88,9 +88,9 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 
 ## 📝 <a id="tutorial"/>Tutorial de Instalação Unboxing
 
- 1. Baixe as ferramentas: [Balena Etcher, Multitool e Unboxing](#utilitario)
- 2. Instale e abra o software Balena Etcher
- 3. Utilizando o Balena Etcher, grave a imagem do Multitool em um SDCard (de no máximo 32GB)
+ 1. Baixe as ferramentas: [Rufus, Multitool e Unboxing](#utilitario)
+ 2. Instale e abra o software Rufus
+ 3. Utilizando o Rufus, grave a imagem do Multitool em um SDCard (de no máximo 32GB)
  4. Retire o SDCard do computador
  5. Insira o SDCard no MXQ Pro 4K 5G, conecte os periférios (mouse, teclado e monitor) e cabo de energia
  6. O espaço de armazenamento do SDCard será redimensionado pelo Multitool
@@ -117,8 +117,8 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 |Utilitário | Descrição | Versão/Build | Link |
 |--|:--:|:--:|:--:|
 | Multitool | Instalação SDCard | `6501010` |[Link](https://drive.google.com/file/d/1GbdqMsbGrMdMOGOlMOeEjhCtfHhhzZsd/view?usp=sharing)|
-| Balena Etcher | Gravação do Multitool no SDCard | `2.1.2` | [Link](https://etcher.balena.io/#download-etcher)|
-| Unboxing | Versão do Linux Armbian Unboxing | `2.1` | [Link](https://drive.google.com/file/d/121jrgXQ_GrR6Rlet9P2W4qO9k5xYcml5/view?usp=sharing)|
+| Rufus | Gravação do Multitool no SDCard | `4.13` | [Link](https://rufus.ie/pt_BR/#download)|
+| Unboxing | Versão do Linux Armbian Unboxing | `2.2` | [Link](https://drive.google.com/file/d/1wONpy0UiNQFIjVBmMPdv7x_qcngiMNqj/view?usp=sharing)|
 
 <br>
 
