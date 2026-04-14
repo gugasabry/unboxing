@@ -108,7 +108,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
  18. Retire o cabo de energia
  19. Retire o SDCard
  20. Conecte o cabo de energia
- 21. Bem vindo(a) ao sistema Unboxing ❤️
+ 21. Bem vindo(a) ao sistema Unboxing 2.2 ❤️
 
 <br>
 
