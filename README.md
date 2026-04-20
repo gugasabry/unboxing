@@ -108,7 +108,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
  18. Retire o cabo de energia
  19. Retire o SDCard
  20. Conecte o cabo de energia
- 21. Bem vindo(a) ao sistema Unboxing 2.2 ❤️
+ 21. Bem vindo(a) ao sistema Unboxing 2.5 ❤️
 
 <br>
 
@@ -118,7 +118,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 |--|:--:|:--:|:--:|
 | Multitool | Instalação SDCard | `6501010` |[Link](https://drive.google.com/file/d/1GbdqMsbGrMdMOGOlMOeEjhCtfHhhzZsd/view?usp=sharing)|
 | Rufus | Gravação do Multitool no SDCard | `4.13` | [Link](https://rufus.ie/pt_BR/#download)|
-| Unboxing | Versão do Linux Armbian Unboxing | `2.2` | [Link](https://drive.google.com/file/d/1wONpy0UiNQFIjVBmMPdv7x_qcngiMNqj/view?usp=sharing)|
+| Unboxing | Versão do Linux Armbian Unboxing | `2.5` | [Link](https://drive.google.com/file/d/1Sw13Zq3BcfiExpgvoe9ywbXlkL987P2r/view?usp=sharing)|
 
 <br>
 
