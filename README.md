@@ -371,12 +371,18 @@ Agradecemos aos órgãos e instituições que contribuem com o projeto:
     <td align="center">
       <a href="https://www.gov.br/receitafederal/">
         <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Logo_Receita_Federal_do_Brasil.svg?raw=true" width="125px;" alt="Receita Federal"/><br>
+        <sub>
+          <b></b>
+        </sub>
       </a>
     </td>
-
-    <td align="center">
+    <td align="center"><br>
       <a href="https://www.ifpb.edu.br/sousa">
         <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/logo_ifpb.png?raw=true" width="100px;" alt="IFPB"/><br>
+        <sub>
+        <br>
+          <b></b>
+        </sub>
       </a>
     </td>
   </tr>
