@@ -85,7 +85,7 @@ Antes de iniciar, identifique corretamente o modelo da sua TV Box e escolha o pr
 
 | Modelo | Processador | Armazenamento | Tutorial |
 |--|--|--|--|
-| MXQ PRO 4K 5G | Rockchip RK322x | NAND | [Acessar fluxo RK322x](#rk322x) |
+| MXQ PRO 4K 5G / MX9 | Rockchip RK322x | NAND | [Acessar fluxo RK322x](#rk322x) |
 | MXQ PRO 4K 5G | Allwinner H313 | eMMC | [Acessar fluxo H313](#h313) |
 
 > ⚠️ Utilizar o procedimento incorreto pode inutilizar permanentemente a TV Box.
@@ -94,13 +94,13 @@ Antes de iniciar, identifique corretamente o modelo da sua TV Box e escolha o pr
 
 # ⚙️ <a id="hardware"/>Hardware Compatível
 
-# 🧠 MXQ PRO 4K 5G — Rockchip RK322x (NAND)
+# 🧠 MXQ PRO 4K 5G / MX9 — Rockchip RK322x (NAND)
 
 ## 📋 Especificações Técnicas
 
 | Propriedade | Detalhes |
 |--|--|
-| Codenome | MXQ PRO 4K 5G |
+| Codenome | MXQ PRO 4K 5G / MX9 |
 | Fabricante | MXQ |
 | Placa Mãe | R329Q_V8.1 |
 | CPU | Rockchip RK3228A |
@@ -116,6 +116,8 @@ Antes de iniciar, identifique corretamente o modelo da sua TV Box e escolha o pr
 | Kernel | Linux 4.4 |
 | Resolução | 1280x720 |
 
+> ⚠️ O procedimento para o modelo MX9 é exatamente o mesmo utilizado no MXQ PRO RK322x NAND, alterando apenas a imagem do sistema Unboxing utilizada durante a restauração.
+
 <br>
 
 # ☀️ MXQ PRO 4K 5G — Allwinner H313
@@ -124,7 +126,7 @@ Antes de iniciar, identifique corretamente o modelo da sua TV Box e escolha o pr
 
 | Propriedade | Detalhes |
 |--|--|
-| Codenome | MXQ PRO 4K |
+| Codenome | MXQ PRO 4K 5G |
 | SoC | Allwinner H313 |
 | Arquitetura | ARM Cortex-A53 64 bits |
 | Frequência | 1500 MHz |
@@ -180,11 +182,18 @@ Antes de iniciar qualquer procedimento:
 
 Este procedimento é destinado às TV Boxes com processadores da família Rockchip RK322x e armazenamento NAND.
 
+Compatível com:
+
+- MXQ PRO 4K 5G;
+- MX9.
+
 O processo utiliza o Multitool RK322x para:
 
 - Backup da ROM original;
 - Remover o sistema Android;
 - Instalar imagem Unboxing.
+
+> ⚠️ O procedimento é o mesmo para MXQ PRO e MX9. A única diferença é a imagem do sistema Unboxing utilizada no momento da restauração.
 
 <br>
 
@@ -255,7 +264,8 @@ Erase Flash
 
 1. Retire o SD Card da TV Box;
 2. Insira o SD Card novamente no computador;
-3. Copie a imagem `.img` do sistema Unboxing para:
+
+3. Copie a imagem `.img` correspondente ao seu modelo para:
 
 ```text
 /backups/
@@ -271,7 +281,7 @@ Erase Flash
 Restore Flash
 ```
 
-7. Selecione a imagem do sistema;
+7. Selecione a imagem correta do sistema;
 
 8. Aguarde aproximadamente 20 minutos.
 
@@ -446,8 +456,6 @@ O sistema passará a inicializar diretamente pelo armazenamento interno.
 | Unboxing MX9 (RK322x) | Sistema Linux personalizado | `2.0` | [Download](https://drive.google.com/drive/folders/18PCMG6ZIjZyhq_DttoJU_2Tt21QIetTZ?usp=sharing) |
 | Unboxing MXQ Pro 4K 5G (H313) | Sistema Linux personalizado | `1.0` | [Download](https://www.google.com) |
 
-
-
 <br>
 
 # 🤝 <a id="parceiros"/>Parceiros
@@ -464,6 +472,7 @@ Agradecemos aos órgãos e instituições que contribuem com o projeto:
         </sub>
       </a>
     </td>
+
     <td align="center"><br>
       <a href="https://www.ifpb.edu.br/sousa">
         <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/logo_ifpb.png?raw=true" width="100px;" alt="IFPB"/><br>
