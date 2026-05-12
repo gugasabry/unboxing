@@ -442,7 +442,7 @@ O sistema passará a inicializar diretamente pelo armazenamento interno.
 | Multitool RK322x | Ferramenta de recuperação e instalação | `6501010` | [Download](https://drive.google.com/file/d/1GbdqMsbGrMdMOGOlMOeEjhCtfHhhzZsd/view?usp=sharing) |
 | Rufus | Criação de SD Card bootável | `4.13` | [Download](https://rufus.ie/pt_BR/#download) |
 | USBImager | Gravação de imagens `.img.xz` | `1.0.10` | [Download](https://gitlab.com/bztsrc/usbimager/raw/binaries/usbimager_1.0.10_wo-i686-win-gdi.zip) |
-| Unboxing RK322x | Sistema Linux personalizado | `2.5` | [Download](https://drive.google.com/file/d/1Sw13Zq3BcfiExpgvoe9ywbXlkL987P2r/view?usp=sharing) |
+| Unboxing RK322x | Sistema Linux personalizado | `2.5` | [Download](https://drive.google.com/drive/folders/1EILZ48YTC-RsJTD4D4-iLVz9xdNMhCFT?usp=sharing) |
 
 <br>
 
