@@ -13,7 +13,7 @@ Transformando TV Boxes apreendidas em computadores educacionais com Linux Armbia
 </h4>
 
 <p align="justify">
-O projeto <b>Unboxing</b> vem sendo desenvolvido no <b>Instituto Federal da Paraíba (IFPB) - Campus Sousa</b> desde Fevereiro de 2025, sob orientação do docente <a href="http://lattes.cnpq.br/1391293610402784" target="_blank">Gustavo Sabry</a>.
+O projeto <b>Unboxing</b> vem sendo desenvolvido no <b>Instituto Federal da Paraíba (IFPB)</b> desde Fevereiro de 2025, sob orientação do docente <a href="http://lattes.cnpq.br/1391293610402784" target="_blank">Gustavo Sabry</a>.
 </p>
 
 <p align="justify">
@@ -86,7 +86,7 @@ Antes de iniciar, identifique corretamente o modelo da sua TV Box e escolha o pr
 | Modelo | Processador | Armazenamento | Tutorial |
 |--|--|--|--|
 | MXQ PRO 4K 5G | Rockchip RK322x | NAND | [Acessar fluxo RK322x](#rk322x) |
-| MXQ PRO 4K | Allwinner H313 | eMMC | [Acessar fluxo H313](#h313) |
+| MXQ PRO 4K 5G | Allwinner H313 | eMMC | [Acessar fluxo H313](#h313) |
 
 > ⚠️ Utilizar o procedimento incorreto pode inutilizar permanentemente a TV Box.
 
@@ -114,11 +114,11 @@ Antes de iniciar, identifique corretamente o modelo da sua TV Box e escolha o pr
 | Device Tree | rk30sdk |
 | Sistema Base | Armbian Legacy |
 | Kernel | Linux 4.4 |
-| Resolução | 720x1280 |
+| Resolução | 1280x720 |
 
 <br>
 
-# ☀️ MXQ PRO 4K — Allwinner H313
+# ☀️ MXQ PRO 4K 5G — Allwinner H313
 
 ## 📋 Especificações Técnicas
 
@@ -127,16 +127,15 @@ Antes de iniciar, identifique corretamente o modelo da sua TV Box e escolha o pr
 | Codenome | MXQ PRO 4K |
 | SoC | Allwinner H313 |
 | Arquitetura | ARM Cortex-A53 64 bits |
+| Frequência | 1500 MHz |
 | GPU | Mali-G31 |
 | Memória RAM | 1GB DDR3 |
 | Armazenamento | eMMC |
-| Wi-Fi | Variável conforme lote |
-| Boot | SD Card / eMMC |
+| Wi-Fi | SV6256P |
 | Sistema Base | Armbian |
-| Kernel | Linux Mainline |
+| Kernel | 6.12 |
 | Arquitetura do Sistema | arm64 |
-| Saída de Vídeo | HDMI |
-| Alimentação | 5V DC |
+| Resolução | 1280x720 |
 
 > ⚠️ As especificações podem variar dependendo do lote da TV Box apreendida.
 
@@ -184,9 +183,8 @@ Este procedimento é destinado às TV Boxes com processadores da família Rockch
 O processo utiliza o Multitool RK322x para:
 
 - Backup da ROM original;
-- Apagamento da memória NAND;
-- Instalação da imagem Unboxing;
-- Recuperação do sistema.
+- Remover o sistema Android;
+- Instalar imagem Unboxing.
 
 <br>
 
