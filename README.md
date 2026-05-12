@@ -51,11 +51,11 @@ Após o processo de descaracterização, as TV Boxes passam a executar distribui
 # 📗 Sumário
 
 1. [📦 Objetivo do Projeto](#objetivo)
-2. [⚙️ Hardware Compatível](#hardware)
-3. [💻 Pré-requisitos](#pre-requisitos)
-4. [🧩 Procedimento RK322x NAND](#rk322x)
-5. [☀️ Procedimento Allwinner H313](#h313)
-6. [🛠️ Gravação da Imagem com USBImager](#usbimager)
+2. [🧭 Escolha o Modelo da TV Box](#fluxos)
+3. [⚙️ Hardware Compatível](#hardware)
+4. [💻 Pré-requisitos](#pre-requisitos)
+5. [🧩 Fluxo RK322x NAND](#rk322x)
+6. [☀️ Fluxo Allwinner H313](#h313)
 7. [🚀 Utilitários](#utilitarios)
 8. [🤝 Parceiros](#parceiros)
 9. [👨🏽‍💻 Equipe de Desenvolvimento](#equipe)
@@ -77,9 +77,26 @@ O projeto Unboxing busca:
 
 <br>
 
+# 🧭 <a id="fluxos"/>Escolha o Modelo da TV Box
+
+Atualmente o projeto possui dois fluxos distintos de descaracterização e instalação.
+
+Antes de iniciar, identifique corretamente o modelo da sua TV Box e escolha o procedimento correspondente:
+
+| Modelo | Processador | Armazenamento | Tutorial |
+|--|--|--|--|
+| MXQ PRO 4K 5G | Rockchip RK322x | NAND | [Acessar fluxo RK322x](#rk322x) |
+| MXQ PRO 4K | Allwinner H313 | eMMC | [Acessar fluxo H313](#h313) |
+
+> ⚠️ Utilizar o procedimento incorreto pode inutilizar permanentemente a TV Box.
+
+<br>
+
 # ⚙️ <a id="hardware"/>Hardware Compatível
 
-## 🧠 MXQ PRO 4K 5G — Rockchip RK322x (NAND)
+# 🧠 MXQ PRO 4K 5G — Rockchip RK322x (NAND)
+
+## 📋 Especificações Técnicas
 
 | Propriedade | Detalhes |
 |--|--|
@@ -101,7 +118,9 @@ O projeto Unboxing busca:
 
 <br>
 
-## ☀️ MXQ PRO 4K — Allwinner H313
+# ☀️ MXQ PRO 4K — Allwinner H313
+
+## 📋 Especificações Técnicas
 
 | Propriedade | Detalhes |
 |--|--|
@@ -125,15 +144,15 @@ O projeto Unboxing busca:
 
 # 💻 <a id="pre-requisitos"/>Pré-requisitos
 
-Antes de iniciar o procedimento:
+Antes de iniciar qualquer procedimento:
 
-1. Verifique o processador da sua TV Box;
+1. Verifique o processador da TV Box;
 2. Identifique se o armazenamento é NAND ou eMMC;
 3. Faça backup da ROM original;
-4. Utilize um cartão SD confiável;
+4. Utilize um SD Card confiável;
 5. Utilize fonte de alimentação estável;
-6. Evite desligamentos durante a gravação da imagem;
-7. Utilize teclado, mouse e monitor HDMI.
+6. Não desligue o equipamento durante a instalação;
+7. Utilize monitor HDMI, teclado e mouse.
 
 <br>
 
@@ -146,25 +165,49 @@ Antes de iniciar o procedimento:
 
 <br>
 
-# 🧩 <a id="rk322x"/>Procedimento de Descaracterização — MXQ PRO RK322x (NAND)
+---
+
+<br>
+
+# 🧩 <a id="rk322x"/>Fluxo de Descaracterização — MXQ PRO RK322x (NAND)
+
+<p align="center">
+  <img src="https://img.shields.io/badge/RK322x-NAND-blue?style=for-the-badge">
+</p>
+
+<br>
+
+## 🧠 Sobre este modelo
+
+Este procedimento é destinado às TV Boxes com processadores da família Rockchip RK322x e armazenamento NAND.
+
+O processo utiliza o Multitool RK322x para:
+
+- Backup da ROM original;
+- Apagamento da memória NAND;
+- Instalação da imagem Unboxing;
+- Recuperação do sistema.
+
+<br>
 
 ## 📥 Etapa 1 — Download das Ferramentas
 
 Baixe:
 
-- Rufus
-- Multitool RK322x
-- Imagem do sistema Unboxing
+- Rufus;
+- Multitool RK322x;
+- Imagem do sistema Unboxing.
 
 <br>
 
 ## 💽 Etapa 2 — Criando o SD Card Bootável
 
 1. Insira um SD Card no computador;
-2. Abra o Rufus;
+2. Abra o software Rufus;
 3. Selecione a imagem do Multitool;
-4. Grave a imagem no SD Card;
-5. Aguarde a conclusão.
+4. Escolha o SD Card correto;
+5. Clique em iniciar;
+6. Aguarde a conclusão da gravação.
 
 <br>
 
@@ -184,46 +227,67 @@ Baixe:
 
 > ⚠️ Recomendado fortemente.
 
-1. Selecione:
-   - `Backup Flash`
+1. Escolha a opção:
+
+```text
+Backup Flash
+```
+
 2. Aguarde o término;
+
 3. Salve o backup em local seguro.
 
 <br>
 
-## 🧹 Etapa 5 — Apagando o Android
+## 🧹 Etapa 5 — Removendo o Android Original
 
-1. Escolha:
-   - `Erase Flash`
+1. Escolha a opção:
+
+```text
+Erase Flash
+```
+
 2. Confirme a operação.
 
-> ⚠️ Esta etapa remove completamente o Android original.
+> ⚠️ Esta etapa remove completamente o Android da TV Box.
 
 <br>
 
 ## 📦 Etapa 6 — Instalando o Sistema Unboxing
 
-1. Copie a imagem `.img` do Unboxing para:
-   ```
-   /backups/
-   ```
+1. Retire o SD Card da TV Box;
+2. Insira o SD Card novamente no computador;
+3. Copie a imagem `.img` do sistema Unboxing para:
 
-2. Retorne ao Multitool;
+```text
+/backups/
+```
 
-3. Escolha:
-   - `Restore Flash`
+4. Retorne o SD Card para a TV Box;
 
-4. Selecione a imagem do Unboxing;
+5. Inicialize novamente o Multitool;
 
-5. Aguarde aproximadamente 20 minutos.
+6. Escolha:
+
+```text
+Restore Flash
+```
+
+7. Selecione a imagem do sistema;
+
+8. Aguarde aproximadamente 20 minutos.
 
 <br>
 
 ## 🔌 Etapa 7 — Finalização
 
 1. Escolha:
-   - `Shutdown`
-2. Retire a alimentação;
+
+```text
+Shutdown
+```
+
+2. Retire a alimentação elétrica;
 3. Remova o SD Card;
 4. Ligue novamente a TV Box.
 
@@ -235,105 +299,37 @@ Bem-vindo(a) ao sistema **Unboxing**.
 
 <br>
 
-# ☀️ <a id="h313"/>Procedimento de Descaracterização — MXQ PRO Allwinner H313
-
-A nova geração de TV Boxes recebidas pelo projeto utiliza o processador **Allwinner H313**, baseado em arquitetura ARM Cortex-A53 de 64 bits.
-
-Diferentemente do modelo RK322x NAND, o processo de instalação é significativamente mais simples.
+---
 
 <br>
 
-## 📥 Etapa 1 — Download da Imagem
+# ☀️ <a id="h313"/>Fluxo de Descaracterização — MXQ PRO Allwinner H313
 
-Baixe:
-
-- Imagem `.img.xz` do sistema Unboxing;
-- USBImager.
-
-<br>
-
-## 💽 Etapa 2 — Gravando a Imagem no SD Card
-
-1. Insira o SD Card no computador;
-2. Abra o software USBImager;
-3. Selecione a imagem `.img.xz`;
-4. Escolha o dispositivo correspondente ao SD Card;
-5. Clique em `Write`;
-6. Aguarde a gravação.
-
-> ⚠️ Todo o conteúdo do SD Card será apagado.
+<p align="center">
+  <img src="https://img.shields.io/badge/Allwinner-H313-orange?style=for-the-badge">
+</p>
 
 <br>
 
-## 🖥️ Etapa 3 — Primeiro Boot
+## 🧠 Sobre este modelo
 
-1. Insira o SD Card na TV Box;
-2. Conecte:
-   - HDMI;
-   - Mouse;
-   - Teclado;
-   - Fonte;
-3. Ligue a TV Box.
+As novas TV Boxes recebidas pelo projeto utilizam o processador **Allwinner H313**, baseado em arquitetura ARM Cortex-A53 64 bits.
 
-O sistema inicializará diretamente pelo SD Card.
-
-<br>
-
-## ⚙️ Etapa 4 — Instalação no Armazenamento Interno
-
-Após o boot do sistema:
-
-1. Abra o terminal;
-2. Execute:
+Diferentemente do modelo RK322x NAND, o fluxo H313 é mais simples e utiliza boot direto via SD Card seguido da instalação no armazenamento interno através do comando:
 
 ```bash
 sudo armbian-install
 ```
 
-3. Siga as instruções exibidas na tela;
-4. Escolha o dispositivo de armazenamento interno;
-5. Confirme a instalação.
-
 <br>
 
-## ⏳ Etapa 5 — Aguarde a Instalação
-
-O procedimento poderá levar alguns minutos dependendo do armazenamento interno da TV Box.
-
-Durante esta etapa:
-
-- Não desligue o equipamento;
-- Não remova o SD Card;
-- Não interrompa a alimentação elétrica.
-
-<br>
-
-## 🔌 Etapa 6 — Finalização
-
-Após o término:
-
-1. Desligue a TV Box;
-2. Remova o SD Card;
-3. Ligue novamente o equipamento.
-
-O sistema passará a inicializar diretamente pelo armazenamento interno.
-
-<br>
-
-## 🧠 Observações Importantes
-
-- Algumas TV Boxes H313 possuem Wi-Fi incompatível;
-- O funcionamento do Bluetooth pode variar;
-- Certos modelos podem exigir DTBs específicos;
-- Recomenda-se utilizar fontes de alimentação estáveis.
-
-<br>
-
-# 🛠️ <a id="usbimager"/>Gravação da Imagem com USBImager
+# 🛠️ Gravação da Imagem com USBImager
 
 O projeto utiliza o software **USBImager** para replicação rápida do sistema operacional em múltiplas TV Boxes.
 
-## ✅ Vantagens
+<br>
+
+## ✅ Vantagens do USBImager
 
 - Interface simples;
 - Compatível com `.img.xz`;
@@ -348,6 +344,96 @@ O projeto utiliza o software **USBImager** para replicação rápida do sistema 
 ```text
 Imagem Mestre → USBImager → SD Card → Boot Live → armbian-install → Instalação Final
 ```
+
+<br>
+
+## 📥 Etapa 1 — Download das Ferramentas
+
+Baixe:
+
+- USBImager;
+- Imagem `.img.xz` do sistema Unboxing.
+
+<br>
+
+## 💽 Etapa 2 — Gravando a Imagem no SD Card
+
+1. Insira o SD Card no computador;
+2. Abra o USBImager;
+3. Selecione a imagem `.img.xz`;
+4. Escolha o dispositivo correspondente ao SD Card;
+5. Clique em:
+
+```text
+Write
+```
+
+6. Aguarde a conclusão da gravação.
+
+> ⚠️ Todo o conteúdo do SD Card será apagado.
+
+<br>
+
+## 🖥️ Etapa 3 — Primeiro Boot
+
+1. Insira o SD Card na TV Box;
+2. Conecte:
+   - HDMI;
+   - Mouse;
+   - Teclado;
+   - Fonte de alimentação;
+3. Ligue a TV Box.
+
+O sistema inicializará diretamente pelo SD Card.
+
+<br>
+
+## ⚙️ Etapa 4 — Instalação no Armazenamento Interno
+
+Após o boot do sistema:
+
+1. Abra o terminal;
+
+2. Execute:
+
+```bash
+sudo armbian-install
+```
+
+3. Siga as instruções exibidas na tela;
+
+4. Escolha o armazenamento interno;
+
+5. Confirme a instalação.
+
+<br>
+
+## ⏳ Etapa 5 — Aguarde a Instalação
+
+Durante a instalação:
+
+- Não desligue a TV Box;
+- Não remova o SD Card;
+- Não interrompa a alimentação elétrica.
+
+<br>
+
+## 🔌 Etapa 6 — Finalização
+
+1. Desligue a TV Box;
+2. Remova o SD Card;
+3. Ligue novamente o equipamento.
+
+O sistema passará a inicializar diretamente pelo armazenamento interno.
+
+<br>
+
+## 🧠 Observações Importantes
+
+- Algumas TV Boxes H313 possuem Wi-Fi incompatível;
+- O Bluetooth pode variar conforme o lote;
+- Certos modelos podem exigir DTBs específicos;
+- Recomenda-se utilizar fontes de alimentação estáveis.
 
 <br>
 
@@ -376,6 +462,7 @@ Agradecemos aos órgãos e instituições que contribuem com o projeto:
         </sub>
       </a>
     </td>
+
     <td align="center"><br>
       <a href="https://www.ifpb.edu.br/sousa">
         <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/logo_ifpb.png?raw=true" width="100px;" alt="IFPB"/><br>
