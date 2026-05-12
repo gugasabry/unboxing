@@ -454,8 +454,8 @@ O sistema passará a inicializar diretamente pelo armazenamento interno.
 | USBImager | Gravação de imagens `.img.xz` | `1.0.10` | [Download](https://gitlab.com/bztsrc/usbimager/raw/binaries/usbimager_1.0.10_wo-i686-win-gdi.zip) |
 | Unboxing MXQ Pro 4K 5G (RK322x) | Sistema Linux personalizado | `2.0-2.6` | [Download](https://drive.google.com/drive/folders/1EILZ48YTC-RsJTD4D4-iLVz9xdNMhCFT?usp=sharing) |
 | Unboxing MX9 (RK322x) | Sistema Linux personalizado | `2.0` | [Download](https://drive.google.com/drive/folders/18PCMG6ZIjZyhq_DttoJU_2Tt21QIetTZ?usp=sharing) |
-| Unboxing MXQ Pro 4K 5G (H313) | Sistema Linux personalizado | `1.0` | [Download](Em breve) |
-<!-- https://drive.google.com/drive/folders/15zyiCk8aeCZWbnO9nt7ggtFcEAjiN0wQ?usp=sharing -->
+| Unboxing MXQ Pro 4K 5G (H313) | Sistema Linux personalizado | `1.0` | Em breve |
+<!-- [Download](https://drive.google.com/drive/folders/15zyiCk8aeCZWbnO9nt7ggtFcEAjiN0wQ?usp=sharing) -->
 
 <br>
 
