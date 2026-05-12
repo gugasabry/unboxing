@@ -462,7 +462,6 @@ Agradecemos aos órgãos e instituições que contribuem com o projeto:
         </sub>
       </a>
     </td>
-
     <td align="center"><br>
       <a href="https://www.ifpb.edu.br/sousa">
         <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/logo_ifpb.png?raw=true" width="100px;" alt="IFPB"/><br>
