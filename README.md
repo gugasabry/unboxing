@@ -138,7 +138,7 @@ Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
     </td>
     <td align="center"><br>
       <a href="https://www.ifpb.edu.br/sousa">
-        <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/logo-ifpb-sousa.png?raw=true" width="100px;" alt="IFPB"/><br>
+        <img src="https://pt.wikipedia.org/wiki/Ficheiro:Instituto_Federal_da_Para%C3%ADba_-_Marca_Vertical_2015.svg?raw=true" width="100px;" alt="IFPB"/><br>
         <sub>
         <br>
           <b></b>
