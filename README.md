@@ -192,9 +192,9 @@ O processo utiliza o Multitool RK322x para:
 
 Baixe:
 
-- Rufus;
-- Multitool RK322x;
-- Imagem do sistema Unboxing.
+- [Rufus](#utilitarios)
+- [Multitool RK322x](#utilitarios)
+- [Imagem do sistema Unboxing](#utilitarios)
 
 <br>
 
