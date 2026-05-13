@@ -617,8 +617,6 @@ Agradecemos aos órgãos e instituições que contribuem com o projeto:
 
 Dúvidas, sugestões ou colaborações:
 
-🖥️ https://www.ifpb.edu.br/sousa
-
 ✉️ gustavo.sabry@ifpb.edu.br
 
 <br>
