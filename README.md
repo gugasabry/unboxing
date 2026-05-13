@@ -352,7 +352,7 @@ O projeto utiliza:
 
 <ul>
   <li>Imagem mestre compactada <code>.img.xz</code>;</li>
-  <li>USBImager;</li>
+  <li>Script automatizado <code>unboxing-sdcard.sh</code>;</li>
   <li>Clonagem RAW via <code>dd</code>;</li>
   <li>Script automatizado <code>unboxing-install.sh</code>.</li>
 </ul>
@@ -375,7 +375,21 @@ O projeto utiliza:
 ## 📥 Fluxo de Replicação
 
 ```text
-Imagem Mestre → USBImager → SD Card → Boot Live → SSH → unboxing-install.sh → Clonagem RAW → eMMC
+Imagem Mestre (.img.xz)
+        ↓
+unboxing-sdcard.sh
+        ↓
+SD Card Bootável
+        ↓
+Boot Live
+        ↓
+SSH
+        ↓
+unboxing-install.sh
+        ↓
+Clonagem RAW
+        ↓
+eMMC
 ```
 
 <br>
@@ -385,30 +399,39 @@ Imagem Mestre → USBImager → SD Card → Boot Live → SSH → unboxing-insta
 Baixe:
 
 <ul>
-  <li>USBImager;</li>
   <li>Imagem <code>.img.xz</code> do sistema Unboxing;</li>
+  <li>Script <code>unboxing-sdcard.sh</code>;</li>
   <li>Script <code>unboxing-install.sh</code>.</li>
 </ul>
 
 <br>
 
-## 💽 Etapa 2 — Gravando a Imagem no SD Card
+## 💽 Etapa 2 — Preparando o SD Card
 
-1. Insira o SD Card no computador;
+No computador Linux:
 
-2. Abra o USBImager;
-
-3. Selecione a imagem <code>.img.xz</code>;
-
-4. Escolha o dispositivo correspondente ao SD Card;
-
-5. Clique em:
-
-```text
-Write
+```bash
+chmod +x unboxing-sdcard.sh
 ```
 
-6. Aguarde a conclusão da gravação.
+Depois:
+
+```bash
+sudo ./unboxing-sdcard.sh
+```
+
+<p align="justify">
+O script realiza automaticamente:
+</p>
+
+<ul>
+  <li>Verificação da imagem;</li>
+  <li>Verificação do dispositivo;</li>
+  <li>Desmontagem das partições;</li>
+  <li>Limpeza inicial do SD Card;</li>
+  <li>Gravação automatizada utilizando <code>xzcat + dd</code>;</li>
+  <li>Sincronização final.</li>
+</ul>
 
 > ⚠️ Todo o conteúdo do SD Card será apagado.
 
