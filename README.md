@@ -321,36 +321,61 @@ Bem-vindo(a) ao sistema **Unboxing**.
 
 ## 🧠 Sobre este modelo
 
-As novas TV Boxes recebidas pelo projeto utilizam o processador **Allwinner H313**, baseado em arquitetura ARM Cortex-A53 64 bits.
+As novas TV Boxes recebidas pelo projeto utilizam o processador <b>Allwinner H313</b>, baseado em arquitetura ARM Cortex-A53 64 bits.
 
-Diferentemente do modelo RK322x NAND, o fluxo H313 é mais simples e utiliza boot direto via SD Card seguido da instalação no armazenamento interno através do comando:
+Diferentemente do modelo RK322x NAND, o fluxo H313 utiliza:
+
+<ul>
+  <li>Boot Live via SD Card;</li>
+  <li>Clonagem RAW da imagem do sistema;</li>
+  <li>Replicação automatizada via SSH;</li>
+  <li>Instalação direta na eMMC utilizando <code>dd</code>.</li>
+</ul>
+
+<p align="justify">
+O método anterior baseado em:
+</p>
 
 ```bash
 sudo armbian-install
 ```
 
-<br>
-
-# 🛠️ Gravação da Imagem com USBImager
-
-O projeto utiliza o software **USBImager** para replicação rápida do sistema operacional em múltiplas TV Boxes.
+<p align="justify">
+não é mais utilizado oficialmente pelo projeto devido a inconsistências observadas em alguns lotes de TV Boxes.
+</p>
 
 <br>
 
-## ✅ Vantagens do USBImager
+# 🛠️ Método Oficial de Replicação
 
-- Interface simples;
-- Compatível com `.img.xz`;
-- Baixo consumo de memória;
-- Compatível com Windows e Linux;
-- Processo rápido e confiável.
+O projeto utiliza:
+
+<ul>
+  <li>Imagem mestre compactada <code>.img.xz</code>;</li>
+  <li>USBImager;</li>
+  <li>Clonagem RAW via <code>dd</code>;</li>
+  <li>Script automatizado <code>unboxing-install.sh</code>.</li>
+</ul>
+
+<br>
+
+## ✅ Vantagens do Novo Método
+
+<ul>
+  <li>Maior compatibilidade;</li>
+  <li>Replicação extremamente rápida;</li>
+  <li>Evita falhas do <code>armbian-install</code>;</li>
+  <li>Melhor estabilidade;</li>
+  <li>Padronização do processo;</li>
+  <li>Ideal para implantação em larga escala.</li>
+</ul>
 
 <br>
 
 ## 📥 Fluxo de Replicação
 
 ```text
-Imagem Mestre → USBImager → SD Card → Boot Live → armbian-install → Instalação Final
+Imagem Mestre → USBImager → SD Card → Boot Live → SSH → unboxing-install.sh → Clonagem RAW → eMMC
 ```
 
 <br>
@@ -359,17 +384,24 @@ Imagem Mestre → USBImager → SD Card → Boot Live → armbian-install → In
 
 Baixe:
 
-- USBImager;
-- Imagem `.img.xz` do sistema Unboxing.
+<ul>
+  <li>USBImager;</li>
+  <li>Imagem <code>.img.xz</code> do sistema Unboxing;</li>
+  <li>Script <code>unboxing-install.sh</code>.</li>
+</ul>
 
 <br>
 
 ## 💽 Etapa 2 — Gravando a Imagem no SD Card
 
 1. Insira o SD Card no computador;
+
 2. Abra o USBImager;
-3. Selecione a imagem `.img.xz`;
+
+3. Selecione a imagem <code>.img.xz</code>;
+
 4. Escolha o dispositivo correspondente ao SD Card;
+
 5. Clique em:
 
 ```text
@@ -385,65 +417,121 @@ Write
 ## 🖥️ Etapa 3 — Primeiro Boot
 
 1. Insira o SD Card na TV Box;
+
 2. Conecte:
-   - HDMI;
-   - Mouse;
-   - Teclado;
-   - Fonte de alimentação;
+
+   <ul>
+      <li>HDMI;</li>
+      <li>Mouse;</li>
+      <li>Teclado;</li>
+      <li>Fonte de alimentação.</li>
+   </ul>
+
 3. Ligue a TV Box.
 
+<p align="justify">
 O sistema inicializará diretamente pelo SD Card.
+</p>
 
 <br>
 
-## ⚙️ Etapa 4 — Instalação no Armazenamento Interno
+## 🌐 Etapa 4 — Conexão SSH
 
-Após o boot do sistema:
+Após o boot:
 
-1. Abra o terminal;
+1. Conecte a TV Box na mesma rede do computador;
 
-2. Execute:
+2. Descubra o IP do equipamento;
+
+3. Acesse via SSH:
 
 ```bash
-sudo armbian-install
+ssh unboxing@IP_DA_TVBOX
 ```
 
-3. Siga as instruções exibidas na tela;
+<br>
 
-4. Escolha o armazenamento interno;
+## 📦 Etapa 5 — Enviando o Instalador
 
-5. Confirme a instalação.
+No computador Linux:
+
+```bash
+scp unboxing-install.sh unboxing@IP_DA_TVBOX:/home/unboxing/
+```
 
 <br>
 
-## ⏳ Etapa 5 — Aguarde a Instalação
+## ⚙️ Etapa 6 — Executando o Instalador
 
-Durante a instalação:
+Na TV Box:
 
-- Não desligue a TV Box;
-- Não remova o SD Card;
-- Não interrompa a alimentação elétrica.
+```bash
+chmod +x unboxing-install.sh
+```
+
+Depois:
+
+```bash
+sudo ./unboxing-install.sh
+```
+
+<p align="justify">
+O instalador realiza automaticamente:
+</p>
+
+<ul>
+  <li>Desmontagem da eMMC;</li>
+  <li>Limpeza inicial;</li>
+  <li>Clonagem RAW do sistema;</li>
+  <li>Sincronização final;</li>
+  <li>Auto remoção do instalador;</li>
+  <li>Desligamento automático da TV Box.</li>
+</ul>
 
 <br>
 
-## 🔌 Etapa 6 — Finalização
+## ⏳ Etapa 7 — Aguarde a Clonagem
 
-1. Desligue a TV Box;
-2. Remova o SD Card;
-3. Ligue novamente o equipamento.
+Durante o processo:
 
-O sistema passará a inicializar diretamente pelo armazenamento interno.
+<ul>
+  <li>Não desligue a TV Box;</li>
+  <li>Não remova o SD Card;</li>
+  <li>Não interrompa a alimentação elétrica.</li>
+</ul>
+
+<p align="justify">
+O procedimento pode levar alguns minutos dependendo da velocidade do SD Card.
+</p>
+
+<br>
+
+## 🔌 Etapa 8 — Finalização
+
+Após o desligamento automático:
+
+1. Remova o SD Card;
+
+2. Ligue novamente a TV Box.
+
+<p align="justify">
+O sistema passará a inicializar diretamente pela eMMC interna.
+</p>
 
 <br>
 
 ## 🧠 Observações Importantes
 
-- Algumas TV Boxes H313 possuem Wi-Fi incompatível;
-- O Bluetooth pode variar conforme o lote;
-- Certos modelos podem exigir DTBs específicos;
-- Recomenda-se utilizar fontes de alimentação estáveis.
+<ul>
+  <li>Algumas TV Boxes H313 possuem Wi-Fi incompatível;</li>
+  <li>O Bluetooth pode variar conforme o lote;</li>
+  <li>Certos modelos podem exigir DTBs específicos;</li>
+  <li>Recomenda-se utilizar fontes de alimentação estáveis;</li>
+  <li>O método RAW pode emitir aviso de espaço insuficiente ao final da clonagem. Isso é esperado e não compromete a instalação.</li>
+</ul>
 
 <br>
+
 
 # 🚀 <a id="utilitarios"/>Utilitários
 
@@ -517,3 +605,4 @@ Dúvidas, sugestões ou colaborações:
     <img src="https://skillicons.dev/icons?i=github,linux" />
   </a>
 </p>
+
