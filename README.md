@@ -54,12 +54,13 @@ Após o processo de descaracterização, as TV Boxes passam a executar distribui
 2. [🧭 Escolha o Modelo da TV Box](#fluxos)
 3. [⚙️ Hardware Compatível](#hardware)
 4. [💻 Pré-requisitos](#pre-requisitos)
-5. [🧩 Fluxo RK322x NAND](#rk322x)
-6. [☀️ Fluxo Allwinner H313](#h313)
-7. [🚀 Utilitários](#utilitarios)
-8. [🤝 Parceiros](#parceiros)
-9. [👨🏽‍💻 Equipe de Desenvolvimento](#equipe)
-10. [✉️ Contato](#contato)
+5. [🎓 Curso Ministrado no IFPB](#curso)
+6. [🧩 Fluxo RK322x NAND](#rk322x)
+7. [☀️ Fluxo Allwinner H313](#h313)
+8. [🚀 Utilitários](#utilitarios)
+9. [🤝 Parceiros](#parceiros)
+10. [👨🏽‍💻 Equipe de Desenvolvimento](#equipe)
+11. [✉️ Contato](#contato)
 
 <br>
 
@@ -163,6 +164,32 @@ Antes de iniciar qualquer procedimento:
 |--|--|
 | Rockchip RK322x | RK3228A, RK3228B, RK3229 |
 | Allwinner H313 | H313 |
+
+<br>
+
+---
+
+<br>
+
+# 🎓 <a id="curso"/>Curso Ministrado no IFPB
+
+<p align="justify">
+No dia <b>08/05/2026</b>, foi ministrado um curso sobre descaracterização de TV Boxes e implantação do sistema <b>Unboxing</b> na <b>Pró-Reitoria de Extensão e Cultura (PROEXC) do IFPB</b>, localizada em João Pessoa/PB.
+</p>
+
+<p align="justify">
+O material apresentado durante a capacitação está disponível no PDF abaixo:
+</p>
+
+<p align="center">
+  <a href="https://github.com/gugasabry/unboxing/blob/main/Curso%20TvBoxes.pdf">
+    <img src="https://img.shields.io/badge/Acessar-PDF%20do%20Curso-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white">
+  </a>
+</p>
+
+<p align="center">
+  📄 <a href="https://github.com/gugasabry/unboxing/blob/main/Curso%20TvBoxes.pdf">Curso TvBoxes.pdf</a>
+</p>
 
 <br>
 
@@ -319,6 +346,22 @@ Bem-vindo(a) ao sistema **Unboxing**.
 
 <br>
 
+## 🚧 Processo em Atualização
+
+<p align="justify">
+O procedimento descrito abaixo encontra-se temporariamente desatualizado.
+</p>
+
+<p align="justify">
+O projeto passou por mudanças significativas no fluxo de instalação das TV Boxes Allwinner H313 e uma nova metodologia mais rápida, automatizada e estável será disponibilizada em breve neste repositório.
+</p>
+
+<p align="justify">
+Enquanto o novo material oficial não é publicado, o conteúdo abaixo permanece apenas como referência histórica do fluxo anteriormente utilizado.
+</p>
+
+<br>
+
 ## 🧠 Sobre este modelo
 
 As novas TV Boxes recebidas pelo projeto utilizam o processador <b>Allwinner H313</b>, baseado em arquitetura ARM Cortex-A53 64 bits.
@@ -394,168 +437,6 @@ eMMC
 
 <br>
 
-## 📥 Etapa 1 — Download das Ferramentas
-
-Baixe:
-
-<ul>
-  <li>Imagem <code>.img.xz</code> do sistema Unboxing;</li>
-  <li>Script <code>unboxing-sdcard.sh</code>;</li>
-  <li>Script <code>unboxing-install.sh</code>.</li>
-</ul>
-
-<br>
-
-## 💽 Etapa 2 — Preparando o SD Card
-
-No computador Linux:
-
-```bash
-chmod +x unboxing-sdcard.sh
-```
-
-Depois:
-
-```bash
-sudo ./unboxing-sdcard.sh
-```
-
-<p align="justify">
-O script realiza automaticamente:
-</p>
-
-<ul>
-  <li>Verificação da imagem;</li>
-  <li>Verificação do dispositivo;</li>
-  <li>Desmontagem das partições;</li>
-  <li>Limpeza inicial do SD Card;</li>
-  <li>Gravação automatizada utilizando <code>xzcat + dd</code>;</li>
-  <li>Sincronização final.</li>
-</ul>
-
-> ⚠️ Todo o conteúdo do SD Card será apagado.
-
-<br>
-
-## 🖥️ Etapa 3 — Primeiro Boot
-
-1. Insira o SD Card na TV Box;
-
-2. Conecte:
-
-   <ul>
-      <li>HDMI;</li>
-      <li>Mouse;</li>
-      <li>Teclado;</li>
-      <li>Fonte de alimentação.</li>
-   </ul>
-
-3. Ligue a TV Box.
-
-<p align="justify">
-O sistema inicializará diretamente pelo SD Card.
-</p>
-
-<br>
-
-## 🌐 Etapa 4 — Conexão SSH
-
-Após o boot:
-
-1. Conecte a TV Box na mesma rede do computador;
-
-2. Descubra o IP do equipamento;
-
-3. Acesse via SSH:
-
-```bash
-ssh unboxing@IP_DA_TVBOX
-```
-
-<br>
-
-## 📦 Etapa 5 — Enviando o Instalador
-
-No computador Linux:
-
-```bash
-scp unboxing-install.sh unboxing@IP_DA_TVBOX:/home/unboxing/
-```
-
-<br>
-
-## ⚙️ Etapa 6 — Executando o Instalador
-
-Na TV Box:
-
-```bash
-chmod +x unboxing-install.sh
-```
-
-Depois:
-
-```bash
-sudo ./unboxing-install.sh
-```
-
-<p align="justify">
-O instalador realiza automaticamente:
-</p>
-
-<ul>
-  <li>Desmontagem da eMMC;</li>
-  <li>Limpeza inicial;</li>
-  <li>Clonagem RAW do sistema;</li>
-  <li>Sincronização final;</li>
-  <li>Auto remoção do instalador;</li>
-  <li>Desligamento automático da TV Box.</li>
-</ul>
-
-<br>
-
-## ⏳ Etapa 7 — Aguarde a Clonagem
-
-Durante o processo:
-
-<ul>
-  <li>Não desligue a TV Box;</li>
-  <li>Não remova o SD Card;</li>
-  <li>Não interrompa a alimentação elétrica.</li>
-</ul>
-
-<p align="justify">
-O procedimento pode levar alguns minutos dependendo da velocidade do SD Card.
-</p>
-
-<br>
-
-## 🔌 Etapa 8 — Finalização
-
-Após o desligamento automático:
-
-1. Remova o SD Card;
-
-2. Ligue novamente a TV Box.
-
-<p align="justify">
-O sistema passará a inicializar diretamente pela eMMC interna.
-</p>
-
-<br>
-
-## 🧠 Observações Importantes
-
-<ul>
-  <li>Algumas TV Boxes H313 possuem Wi-Fi incompatível;</li>
-  <li>O Bluetooth pode variar conforme o lote;</li>
-  <li>Certos modelos podem exigir DTBs específicos;</li>
-  <li>Recomenda-se utilizar fontes de alimentação estáveis;</li>
-  <li>O método RAW pode emitir aviso de espaço insuficiente ao final da clonagem. Isso é esperado e não compromete a instalação.</li>
-</ul>
-
-<br>
-
-
 # 🚀 <a id="utilitarios"/>Utilitários
 
 | Utilitário | Descrição | Versão | Link |
@@ -566,6 +447,7 @@ O sistema passará a inicializar diretamente pela eMMC interna.
 | Unboxing MXQ Pro 4K 5G (RK322x) | Sistema Linux personalizado | `2.0-2.6` | [Download](https://drive.google.com/drive/folders/1EILZ48YTC-RsJTD4D4-iLVz9xdNMhCFT?usp=sharing) |
 | Unboxing MX9 (RK322x) | Sistema Linux personalizado | `2.0` | [Download](https://drive.google.com/drive/folders/18PCMG6ZIjZyhq_DttoJU_2Tt21QIetTZ?usp=sharing) |
 | Unboxing MXQ Pro 4K 5G (H313) | Sistema Linux personalizado | `1.0` | Em breve |
+
 <!-- [Download](https://drive.google.com/drive/folders/15zyiCk8aeCZWbnO9nt7ggtFcEAjiN0wQ?usp=sharing) -->
 
 <br>
@@ -579,18 +461,12 @@ Agradecemos aos órgãos e instituições que contribuem com o projeto:
     <td align="center">
       <a href="https://www.gov.br/receitafederal/">
         <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Logo_Receita_Federal_do_Brasil.svg?raw=true" width="125px;" alt="Receita Federal"/><br>
-        <sub>
-          <b></b>
-        </sub>
       </a>
     </td>
+
     <td align="center"><br>
       <a href="https://www.ifpb.edu.br/sousa">
         <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/logo_ifpb.png?raw=true" width="100px;" alt="IFPB"/><br>
-        <sub>
-        <br>
-          <b></b>
-        </sub>
       </a>
     </td>
   </tr>
@@ -626,4 +502,3 @@ Dúvidas, sugestões ou colaborações:
     <img src="https://skillicons.dev/icons?i=github,linux" />
   </a>
 </p>
-
