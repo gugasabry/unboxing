@@ -34,16 +34,20 @@ Após o processo de descaracterização, as TV Boxes passam a executar distribui
   <li>Laboratórios de informática de baixo custo.</li>
 </ul>
 
+<p align="center">
+  <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/Wallpaper.png?raw=true" alt="Wallpaper" width="1280">
+</p>
+
 <br>
 
 # 📚 Tutoriais Oficiais
 
 O projeto atualmente possui dois fluxos distintos de descaracterização:
 
-| Modelo | Tutorial |
-|--|--|
-| MXQ PRO RK322x / MX9 (NAND) | [Acessar tutorial legado RK322x](https://github.com/gugasabry/unboxing/blob/main/mxq.md) |
-| MXQ PRO Allwinner H313 (eMMC) | [Acessar tutorial oficial H313](https://github.com/gugasabry/unboxing/blob/main/h313.md) |
+| Modelo | Processador | Armazenamento | Tutorial |
+|--|--|--|--|
+| MXQ PRO 4K 5G / MX9 | Rockchip RK322x | NAND | [Acessar tutorial legado RK322x](https://github.com/gugasabry/unboxing/blob/main/mxq.md) |
+| MXQ PRO 4K 5G | Allwinner H313 | eMMC | [Acessar tutorial oficial H313](https://github.com/gugasabry/unboxing/blob/main/h313.md) |
 
 <br>
 
@@ -60,7 +64,24 @@ Antes de iniciar qualquer procedimento:
 
 <br>
 
+# 🚀 <a id="utilitarios"/>Utilitários
+
+| Utilitário | Descrição | Versão | Link |
+|--|--|--|--|
+| Multitool RK322x | Ferramenta de recuperação e instalação | `6501010` | [Download](https://drive.google.com/file/d/1GbdqMsbGrMdMOGOlMOeEjhCtfHhhzZsd/view?usp=sharing) |
+| Rufus | Criação de SD Card bootável | `4.13` | [Download](https://rufus.ie/pt_BR/#download) |
+| Unboxing MXQ Pro 4K 5G (RK322x) | Sistema Linux personalizado | `2.0-2.6` | [Download](https://drive.google.com/drive/folders/1EILZ48YTC-RsJTD4D4-iLVz9xdNMhCFT?usp=sharing) |
+| Unboxing MX9 (RK322x) | Sistema Linux personalizado | `2.0` | [Download](https://drive.google.com/drive/folders/18PCMG6ZIjZyhq_DttoJU_2Tt21QIetTZ?usp=sharing) |
+| unboxing-sdcard.sh | Gravação de imagens `.img.xz` | `1.0` | [Download](https://drive.google.com/file/d/1e0ECM4e8NN1q0JUFFDGziORxUhXQ7lm3/view?usp=sharing) |
+| Unboxing MXQ Pro 4K 5G (H313) | Sistema Linux personalizado | `1.0` | Em breve |
+
+<!-- [Download](https://drive.google.com/drive/folders/15zyiCk8aeCZWbnO9nt7ggtFcEAjiN0wQ?usp=sharing) -->
+
+<br>
+
 # 🤝 Parceiros
+
+Agradecemos aos órgãos e instituições que contribuem com o projeto:
 
 <table>
   <tr>
@@ -95,6 +116,8 @@ Antes de iniciar qualquer procedimento:
 <br>
 
 # ✉️ Contato
+
+Dúvidas, sugestões ou colaborações:
 
 ✉️ gustavo.sabry@ifpb.edu.br
 
