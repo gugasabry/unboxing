@@ -1,1 +1,101 @@
+# 🧩 Fluxo de Descaracterização — MXQ PRO RK322x (NAND)
 
+<p align="center">
+  <img src="https://img.shields.io/badge/RK322x-NAND-blue?style=for-the-badge">
+</p>
+
+<br>
+
+## 🧠 Sobre este modelo
+
+Este procedimento é destinado às TV Boxes com processadores da família Rockchip RK322x e armazenamento NAND.
+
+Compatível com:
+
+- MXQ PRO 4K 5G;
+- MX9.
+
+O processo utiliza o Multitool RK322x para:
+
+- Backup da ROM original;
+- Remover o sistema Android;
+- Instalar imagem Unboxing.
+
+<br>
+
+## 📥 Etapa 1 — Download das Ferramentas
+
+Baixe:
+
+- Multitool RK322x;
+- Rufus;
+- Imagem do sistema Unboxing.
+
+<br>
+
+## 💽 Etapa 2 — Criando o SD Card Bootável
+
+1. Insira um SD Card no computador;
+2. Abra o software Rufus;
+3. Selecione a imagem do Multitool;
+4. Escolha o SD Card correto;
+5. Clique em iniciar;
+6. Aguarde a conclusão da gravação.
+
+<br>
+
+## 📺 Etapa 3 — Inicializando o Multitool
+
+1. Insira o SD Card na TV Box;
+2. Conecte HDMI, mouse, teclado e fonte;
+3. Aguarde o boot do Multitool.
+
+<br>
+
+## 💾 Etapa 4 — Backup da ROM Original
+
+```text
+Backup Flash
+```
+
+<br>
+
+## 🧹 Etapa 5 — Removendo o Android Original
+
+```text
+Erase Flash
+```
+
+<br>
+
+## 📦 Etapa 6 — Instalando o Sistema Unboxing
+
+1. Copie a imagem `.img` para:
+
+```text
+/backups/
+```
+
+2. Inicialize novamente o Multitool;
+
+3. Escolha:
+
+```text
+Restore Flash
+```
+
+<br>
+
+## 🔌 Etapa 7 — Finalização
+
+```text
+Shutdown
+```
+
+Remova o SD Card e ligue novamente a TV Box.
+
+<br>
+
+## ❤️ Sistema Instalado
+
+Bem-vindo(a) ao sistema **Unboxing**.
