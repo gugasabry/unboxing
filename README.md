@@ -46,8 +46,8 @@ O projeto atualmente possui dois fluxos distintos de descaracterização:
 
 | Modelo | Processador | Armazenamento | Tutorial |
 |--|--|--|--|
-| MXQ PRO 4K 5G / MX9 | Rockchip RK322x | NAND | [Acessar tutorial legado RK322x](https://github.com/gugasabry/unboxing/blob/main/mxq.md) |
-| MXQ PRO 4K 5G | Allwinner H313 | eMMC | [Acessar tutorial oficial H313](https://github.com/gugasabry/unboxing/blob/main/h313.md) |
+| MXQ PRO 4K 5G / MX9 | Rockchip RK322x | NAND | [Clique aqui](https://github.com/gugasabry/unboxing/blob/main/mxq.md) |
+| MXQ PRO 4K 5G | Allwinner H313 | eMMC | [Clique aqui](https://github.com/gugasabry/unboxing/blob/main/h313.md) |
 
 <br>
 
