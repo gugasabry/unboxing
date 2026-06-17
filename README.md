@@ -35,7 +35,7 @@ Após o processo de descaracterização, as TV Boxes passam a executar distribui
 </ul>
 
 <p align="center">
-  <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/Wallpaper.png?raw=true" alt="Wallpaper" width="1280">
+  <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/Screenshot.png?raw=true" alt="Wallpaper" width="1280">
 </p>
 
 <br>
