@@ -102,18 +102,13 @@ Agradecemos aos órgãos e instituições que contribuem com o projeto:
 
 # 👨🏽‍💻 Equipe de Desenvolvimento
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="http://lattes.cnpq.br/6266978921240941" target="_blank">
-        <img src="https://github.com/gugasabry/unboxing/blob/main/imagens/sabry-lattes.jpg?raw=true" width="110px;" alt="Gustavo Sabry"/><br>
-        <span><b>Gustavo Sabry</b></span>
-      </a>
-    </td>
-  </tr>
-</table>
+| | | | | | | |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| <a href="http://lattes.cnpq.br/6266978921240941"><img src="https://raw.githubusercontent.com/gugasabry/unboxing/main/imagens/sabry-lattes.jpg" height="110"><br><sub><b>Gustavo Sabry<br>(Coordenador/Orientador)</b></sub></a> | <img src="https://raw.githubusercontent.com/gugasabry/unboxing/main/imagens/Alessandra_Git.png" height="110"><br><sub><b>Alessandra Gomes<br>(Voluntária)</b></sub> | <img src="https://raw.githubusercontent.com/gugasabry/unboxing/main/imagens/Ana%20J%C3%BAlia_Git.png" height="110"><br><sub><b>Ana Júlia<br>(Voluntária)</b></sub> | <img src="https://raw.githubusercontent.com/gugasabry/unboxing/main/imagens/Francisca_Git.png" height="110"><br><sub><b>Francisca Maria<br>(Bolsista)</b></sub> | <img src="https://raw.githubusercontent.com/gugasabry/unboxing/main/imagens/Gustavo_Git.png" height="110"><br><sub><b>Gustavo da Silva<br>(Bolsista)</b></sub> | <img src="https://raw.githubusercontent.com/gugasabry/unboxing/main/imagens/Isabelle_Git.png" height="110"><br><sub><b>Isabelle da Silva<br>(Bolsista)</b></sub> | <img src="https://raw.githubusercontent.com/gugasabry/unboxing/main/imagens/Maria%20Clara%20Maia_Git.png" height="110"><br><sub><b>Maria Clara Maia<br>(Voluntária)</b></sub> |
 
-<br>
+| | | | | | | |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| <img src="https://raw.githubusercontent.com/gugasabry/unboxing/main/imagens/Maria%20Clara%20Quintino_Git.png" height="110"><br><sub><b>Maria Clara Vieira<br>(Bolsista)</b></sub> | <img src="https://raw.githubusercontent.com/gugasabry/unboxing/main/imagens/Maria%20Eduarda_Git.png" height="110"><br><sub><b>Maria Eduarda<br>(Voluntária)</b></sub> | <img src="https://raw.githubusercontent.com/gugasabry/unboxing/main/imagens/Maria%20Thalita_Git.png" height="110"><br><sub><b>Maria Thalita<br>(Voluntária)</b></sub> | <img src="https://raw.githubusercontent.com/gugasabry/unboxing/main/imagens/Nadyelly_Git.png" height="110"><br><sub><b>Nadyelly Vitória<br>(Bolsista)</b></sub> | <img src="https://raw.githubusercontent.com/gugasabry/unboxing/main/imagens/Rafael_Git.png" height="110"><br><sub><b>Rafael Felix<br>(Voluntário)</b></sub> | <img src="https://raw.githubusercontent.com/gugasabry/unboxing/main/imagens/Rayla_Git.png" height="110"><br><sub><b>Rayla Araujo<br>(Voluntária)</b></sub> | <img src="https://raw.githubusercontent.com/gugasabry/unboxing/main/imagens/Wendell_Git.png" height="110"><br><sub><b>Wendell Jeffeson<br>(Bolsista)</b></sub> |
 
 # ✉️ Contato
 
