@@ -100,7 +100,7 @@ Agradecemos aos órgãos e instituições que contribuem com o projeto:
 
 <br>
 
-# 👨🏽‍💻 Equipe de Desenvolvimento
+# 👨‍💻👩‍💻 Equipe de Desenvolvimento
 
 | | | | | | | |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
