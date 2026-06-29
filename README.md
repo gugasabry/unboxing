@@ -40,7 +40,7 @@ Após o processo de descaracterização, as TV Boxes passam a executar distribui
 
 <br>
 
-# 📚 Tutoriais Oficiais
+# 📚 Tutoriais
 
 O projeto atualmente possui dois fluxos distintos de descaracterização:
 
