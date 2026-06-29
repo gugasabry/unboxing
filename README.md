@@ -75,7 +75,7 @@ Antes de iniciar qualquer procedimento:
 | unboxing-sdcard.sh | Gravação de imagens `.img.xz` | `1.0` | [Download](https://drive.google.com/file/d/1e0ECM4e8NN1q0JUFFDGziORxUhXQ7lm3/view?usp=sharing) |
 | Unboxing MXQ Pro 4K 5G (H313) | Sistema Linux personalizado | `1.0` | Em breve |
 
-<!-- [Download](https://drive.google.com/drive/folders/15zyiCk8aeCZWbnO9nt7ggtFcEAjiN0wQ?usp=sharing) -->
+<!-- [Download](https://drive.google.com/drive/folders/1I6pxCzgcib_UF2DfEOp4fpZCWv57dSGe?usp=sharing) -->
 
 <br>
 
