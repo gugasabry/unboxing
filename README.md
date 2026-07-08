@@ -73,7 +73,7 @@ Antes de iniciar qualquer procedimento:
 | Unboxing MXQ Pro 4K 5G (RK322x) | Sistema Linux personalizado | `2.0-2.6` | [Download](https://drive.google.com/drive/folders/1EILZ48YTC-RsJTD4D4-iLVz9xdNMhCFT?usp=sharing) |
 | Unboxing MX9 (RK322x) | Sistema Linux personalizado | `2.0` | [Download](https://drive.google.com/drive/folders/18PCMG6ZIjZyhq_DttoJU_2Tt21QIetTZ?usp=sharing) |
 | unboxing-sdcard.sh | Gravação de imagens `.img.xz` | `1.0` | [Download](https://github.com/gugasabry/unboxing/blob/main/unboxing-sdcard.sh) |
-| Unboxing MXQ Pro 4K 5G (H313) | Sistema Linux personalizado | `1.0` | (Em breve) |
+| Unboxing MXQ Pro 4K 5G (H313) | Sistema Linux personalizado | `1.0` | [Download](https://drive.google.com/drive/folders/1I6pxCzgcib_UF2DfEOp4fpZCWv57dSGe?usp=sharing) |
 
 <!-- [Download](https://drive.google.com/drive/folders/1I6pxCzgcib_UF2DfEOp4fpZCWv57dSGe?usp=sharing) -->
 
